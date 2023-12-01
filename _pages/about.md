@@ -16,10 +16,10 @@ Before that, I obtained Master's degree at the [HCP Lab](http://www.sysu-hcp.net
 
 Research Interests
 ===
-With the text data that would take 10^4 years for a human to read, LLMs excel beyond human capabilities in the domains of writing, translation, and their vast reservoir of knowledge.
+With the training text that would take 10^4 years for a human to read, LLMs excel beyond human capabilities in the domains of writing, translation, and knowledge reservoir.
 However, their mathematical ability is still at the level of primary and secondary school students. 
-To fill this gap, I'm interested in the following topics:
-* **Reasoning with LMs**: How to make LMs reason like humans? How to train LMs to achieve human-level reasoning ability?
+To fill this confusing and unignorable gap, I'm interested in the following topics:
+* **Reasoning with LMs**: How to make LMs reason like humans or achieve human-level reasoning ability?
 * **Enhancing Mathematical Proficiency in LMs**: What is the strategy to elevate large models to human-level mathematical competence like?
 
 News
