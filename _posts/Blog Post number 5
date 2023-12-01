@@ -1,0 +1,18 @@
+---
+title: '自有域名与GitHub个人域名合并'
+date: 2021-12-01
+permalink: /posts/2021/12/blog-post-5/
+tags:
+  - cool posts
+  - 摸索
+  - GitHub
+  - 域名
+---
+
+绑定域名需要在 域名解析服务商 和 github 两边都进行操作。
+
+在域名解析服务商进行个人域名解析，将域名绑定到个人 github pages。
+
+同时在 github pages 需要配置 CNAME 文件重定向到你的域名。
+
+在github.io仓库的Settings的GitHub Pages项直接设置Custom domain,github会自动添加CNAME文件:
