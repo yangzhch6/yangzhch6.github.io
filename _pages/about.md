@@ -11,7 +11,7 @@ redirect_from:
 
 Short Bio
 ===
-I'm **Zhicheng YANG (杨志成)**, a guy who is pursuing his Ph.D. degree advised by [Prof. Jing Tang](https://sites.google.com/view/jtang) and [Prof. Yiwei Wang](https://wangywust.github.io/). I have a broad interest in machine learning problems, especially utilizing Large Models for complex reasoning-required tasks.
+I'm **Zhicheng YANG (杨志成)**, a guy who is pursuing his Ph.D. degree advised by [Prof. Jing Tang](https://sites.google.com/view/jtang) and [Prof. Yiwei Wang](https://wangywust.github.io/). I have a broad interest in machine learning problems, especially utilizing Large Models (LMs) for complex reasoning-required tasks.
 Before that, I obtained Master's degree at the [HCP Lab](http://www.sysu-hcp.net/home/) and bachelor's degree of Computer Science and Technology in Sun Yat-sen University, where I was fortunately advised by [Prof. Xiaodan Liang](https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN) to conduct research in NLP.
 
 Research Interests
@@ -19,8 +19,8 @@ Research Interests
 With the text data that would take 10^4 years for a human to read, LLMs excel beyond human capabilities in the domains of writing, translation, and their vast reservoir of knowledge.
 However, their mathematical ability is still at the level of primary and secondary school students. 
 To fill this gap, I'm interested in the following topics:
-* **Reasoning with LLMs**: How to make LLMs reason like humans? How to train LLMs to achieve human-level reasoning ability?
-* **Mathematical Problem Solving**: How to make LLMs achieve human-level mathematical ability?
+* **Reasoning with LMs**: How to make LMs reason like humans? How to train LMs to achieve human-level reasoning ability?
+* **Enhancing Mathematical Proficiency in LMs**: What is the strategy to elevate large models to human-level mathematical competence like?
 
 News
 ===
