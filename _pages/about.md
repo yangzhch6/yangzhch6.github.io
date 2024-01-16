@@ -48,6 +48,11 @@ Yunong Zhang, <strong>Zhicheng Yang</strong>, Jianrong Chen, Zhiyuan Qi and Guan
 9th International Conference on Information Science and Technolog, 2019. (ICIST 2019)<br />
 [[Paper]](https://ieeexplore.ieee.org/document/8836883) <br />
 
+<strong><font style = "color:#1f57b8">DQ-LoRe: Dual Queries with Low Rank Approximation Re-ranking for In-Context Learning</font></strong><br />
+Jing Xiong, Zixuan Li, Chuanyang Zheng, Zhijiang Guo, Yichun Yin, Enze Xie, <strong>Zhicheng Yang</strong>, Qingxing Cao, Haiming Wang, Xiongwei Han, Jing Tang, Chengming Li, Xiaodan Liang <br />
+12th International Conference on Learning Representations, 2024. (ICLR 2024)<br />
+[[Paper]](https://arxiv.org/abs/2310.02954) <br />
+
 (* denotes co-first authors) <br />
 
 Preprints
@@ -60,9 +65,7 @@ Preprints
 Yinya Huang, Ruixin Hong, Hongming Zhang, Wei Shao, <strong>Zhicheng Yang</strong>, Dong Yu, Changshui Zhang, Xiaodan Liang, Linqi Song <br />
 [[Paper]](https://arxiv.org/abs/2311.17438) <br />
 
-<strong><font style = "color:#1f57b8">DQ-LoRe: Dual Queries with Low Rank Approximation Re-ranking for In-Context Learning</font></strong><br />
-Jing Xiong, Zixuan Li, Chuanyang Zheng, Zhijiang Guo, Yichun Yin, Enze Xie, <strong>Zhicheng Yang</strong>, Qingxing Cao, Haiming Wang, Xiongwei Han, Jing Tang, Chengming Li, Xiaodan Liang <br />
-[[Paper]](https://arxiv.org/abs/2310.02954) <br />
+
 
 Education
 ===
