@@ -24,6 +24,7 @@ To fill this confusing and unignorable gap, I'm interested in the following topi
 
 News
 ===
+- **<font style = "color:#FF8000">[5/2023]</font>** 1 paper is accepted in **Findings of NAACL 2024**
 - **<font style = "color:#FF8000">[5/2023]</font>** 1 paper is accepted in **IEEE Transactions on Neural Networks and Learning Systems (TNNLS)**
 
 Publication 
@@ -52,6 +53,11 @@ Yunong Zhang, <strong>Zhicheng Yang</strong>, Jianrong Chen, Zhiyuan Qi and Guan
 Jing Xiong, Zixuan Li, Chuanyang Zheng, Zhijiang Guo, Yichun Yin, Enze Xie, <strong>Zhicheng Yang</strong>, Qingxing Cao, Haiming Wang, Xiongwei Han, Jing Tang, Chengming Li, Xiaodan Liang <br />
 12th International Conference on Learning Representations, 2024. (ICLR 2024)<br />
 [[Paper]](https://arxiv.org/abs/2310.02954) <br />
+
+<strong><font style = "color:#1f57b8">ATG: Benchmarking Automated Theorem Generation for Generative Language Models</font></strong><br />
+Xiaohan Lin, Qingxing Cao, Yinya Huang, **Zhicheng Yang**, Zhengying Liu, Zhenguo Li, Xiaodan Liang <br />
+Annual Conference of the North American Chapter of the Association for Computational Linguistics, 2024. (Findings of NAACL 2024)<br />
+[[Paper]](https://openreview.net/forum?id=H0RzzhAxTv&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FNAACL%2F2024%2FConference%2FAuthors%23your-submissions)) <br />
 
 (* denotes co-first authors) <br />
 
