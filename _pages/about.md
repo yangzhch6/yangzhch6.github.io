@@ -20,7 +20,10 @@ With the training text that would take 10^4 years for a human to read, LLMs exce
 However, their mathematical ability is still at the level of primary and secondary school students. 
 To fill this confusing and unignorable gap, I'm interested in the following topics:
 * **Reasoning with LMs**: How to make LMs reason like humans or achieve human-level reasoning ability?
+  * In-context Learning
 * **Enhancing Mathematical Ability in LMs**: What is the strategy to elevate large models to human-level mathematical competence like?
+  * Automatic Data Synthesis
+  * Self-Evolution Framework
 
 News
 ===
