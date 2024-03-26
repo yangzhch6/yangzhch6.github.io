@@ -11,11 +11,13 @@ redirect_from:
 
 Short Bio
 ===
-I'm **Zhicheng YANG (杨志成)**, a guy who is pursuing his Ph.D. degree advised by [Prof. Jing Tang](https://sites.google.com/view/jtang) and [Prof. Yiwei Wang](https://wangywust.github.io/). I have a broad interest in machine learning problems, especially utilizing Large Models (LMs) for complex reasoning-required tasks.
-Before that, I obtained Master's degree at the [HCP Lab](http://www.sysu-hcp.net/home/) and bachelor's degree of Computer Science and Technology in Sun Yat-sen University, where I was fortunately advised by [Prof. Xiaodan Liang](https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN) to conduct research in NLP.
+I'm **Zhicheng YANG**, who is pursuing a Ph.D. degree advised by [Prof. Jing Tang](https://sites.google.com/view/jtang) and [Prof. Yiwei Wang](https://wangywust.github.io/). 
+Before that, I obtained Master's degree at the [HCP Lab](http://www.sysu-hcp.net/home/) and bachelor's degree of Computer Science and Technology in SYSU, where I was fortunately advised by [Prof. Xiaodan Liang](https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN) to conduct research in NLP.
 
 Research Interests
 ===
+I have a broad interest in utilizing Large Models (LMs) for **complex reasoning** tasks.
+
 With the training text that would take 10^4 years for a human to read, LLMs excel beyond human capability in the domains of writing, translation, and knowledge reservoirs.
 However, their mathematical ability is still at the level of primary and secondary school students. 
 To fill this confusing and unignorable gap, I'm interested in the following topics:
@@ -24,6 +26,7 @@ To fill this confusing and unignorable gap, I'm interested in the following topi
 * **Enhancing Mathematical Ability in LMs**: What is the strategy to elevate large models to human-level mathematical competence like?
   * Automatic Data Synthesis
   * Self-Evolution Framework
+
 
 News
 ===
