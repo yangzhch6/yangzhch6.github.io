@@ -30,8 +30,7 @@ To fill this confusing and unignorable gap, I'm interested in the following topi
 
 News
 ===
-- **<font style = "color:#FF8000">[3/2024]</font>** 1 paper is accepted in **Findings of NAACL 2024**
-- **<font style = "color:#FF8000">[5/2023]</font>** 1 paper is accepted in **IEEE Transactions on Neural Networks and Learning Systems (TNNLS)**
+<!--  - **<font style = "color:#FF8000">[5/2023]</font>** 1 paper is accepted in **IEEE Transactions on Neural Networks and Learning Systems (TNNLS)** -->
 
 Publication 
 ===
