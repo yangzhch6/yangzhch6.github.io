@@ -33,6 +33,18 @@ News
 ===
 - **<font style = "color:#FF8000">[5/2024]</font>** *Serve as the challenge lead organizer of [Automated Optimization Problem-Solving with Code](https://www.codabench.org/competitions/2438/) in [AI for Math Workshop and Challenges](https://sites.google.com/view/ai4mathworkshopicml2024) at [ICML 2024](https://icml.cc/Conferences/2024).*
 
+
+Preprints
+===
+<strong><font style = "color:#1f57b8">Benchmarking LLMs for Optimization Modeling and Enhancing Reasoning via Reverse Socratic Synthesis</font></strong><br />
+<strong>Zhicheng Yang</strong>, Yinya Huang, Wei Shi, Liang Feng, Linqi Song, Yiwei Wang, Xiaodan Liang, Jing Tang <br />
+[[Paper]](https://arxiv.org/abs/2407.09887) [[Code]](https://github.com/yangzhch6/ReSocratic) <br /> 
+
+<strong><font style = "color:#1f57b8">AlignedCoT: Prompting Large Language Models via Native-Speaking Demonstrations</font></strong><br />
+<strong>Zhicheng Yang</strong>, Yinya Huang, Jing Xiong, Liang Feng, Xiaodan Liang, Yiwei Wang, Jing Tang <br />
+[[Paper]](https://arxiv.org/abs/2311.13538) [[Code]](https://github.com/yangzhch6/AlignedCoT) <br /> 
+
+
 Recent Publication 
 ===
 <strong><font style = "color:#1f57b8">LogicSolver: Towards Interpretable Math Word Problem Solving with Logical Prompt-enhanced Learning</font></strong><br />
@@ -66,17 +78,6 @@ IEEE Transactions on Neural Networks and Learning Systems, 2023. (TNNLS) <br />
 [[Paper]](https://ieeexplore.ieee.org/document/10113691) <br />
 
 (* denotes co-first authors) <br />
-
-
-Preprints
-===
-<strong><font style = "color:#1f57b8">Benchmarking LLMs for Optimization Modeling and Enhancing Reasoning via Reverse Socratic Synthesis</font></strong><br />
-<strong>Zhicheng Yang</strong>, Yinya Huang, Wei Shi, Liang Feng, Linqi Song, Yiwei Wang, Xiaodan Liang, Jing Tang <br />
-[[Paper]](https://arxiv.org/abs/2407.09887) [[Code]](https://github.com/yangzhch6/ReSocratic) <br /> 
-
-<strong><font style = "color:#1f57b8">AlignedCoT: Prompting Large Language Models via Native-Speaking Demonstrations</font></strong><br />
-<strong>Zhicheng Yang</strong>, Yinya Huang, Jing Xiong, Liang Feng, Xiaodan Liang, Yiwei Wang, Jing Tang <br />
-[[Paper]](https://arxiv.org/abs/2311.13538) [[Code]](https://github.com/yangzhch6/AlignedCoT) <br /> 
 
 
 Education
