@@ -28,17 +28,16 @@ To fill this confusing and unignorable gap, I'm interested in the following topi
   * Self-Evolution Framework
 
 
+<!--
 News
 ===
+- **<font style = "color:#FF8000">[5/2023]</font>** 1 paper is accepted in **IEEE Transactions on Neural Networks and Learning Systems (TNNLS)**
+-->
+
 <!--  - **<font style = "color:#FF8000">[5/2023]</font>** 1 paper is accepted in **IEEE Transactions on Neural Networks and Learning Systems (TNNLS)** -->
 
-Publication 
+Recent Publication 
 ===
-<strong><font style = "color:#1f57b8">Template-based Contrastive Distillation Pre-training for Math Word Problem Solving</font></strong><br />
-Jinghui Qin*, <strong>Zhicheng Yang*</strong>, Jiaqi Chen, Xiaodan Liang and Liang Lin<br />
-IEEE Transactions on Neural Networks and Learning Systems, 2023. (TNNLS) <br />
-[[Paper]](https://ieeexplore.ieee.org/document/10113691) <br />
-
 <strong><font style = "color:#1f57b8">LogicSolver: Towards Interpretable Math Word Problem Solving with Logical Prompt-enhanced Learning</font></strong><br />
 <strong>Zhicheng Yang<sup>*</sup></strong>, Jinghui Qin<sup>*</sup>, Jiaqi Chen, Liang Lin, Xiaodan Liang<br />
 The 2022 Conference on Empirical Methods in Natural Language Processing, 2022. (Findings of EMNLP 2022) <br />
@@ -49,10 +48,10 @@ The 2022 Conference on Empirical Methods in Natural Language Processing, 2022. (
 Annual Conference of the North American Chapter of the Association for Computational Linguistics, 2022. (Findings of NAACL 2022)<br />
 [[Paper]](https://aclanthology.org/2022.findings-naacl.104/) [[Code]](https://github.com/yangzhch6/UnbiasedMWP) <br />
 
-<strong><font style = "color:#1f57b8">Presentation, Derivation and Numerical Experiments of a Group of Extrapolation Formulas</font></strong><br />
-Yunong Zhang, <strong>Zhicheng Yang</strong>, Jianrong Chen, Zhiyuan Qi and Guanqun Yang<br />
-9th International Conference on Information Science and Technolog, 2019. (ICIST 2019)<br />
-[[Paper]](https://ieeexplore.ieee.org/document/8836883) <br />
+<strong><font style = "color:#1f57b8">CLOMO: Counterfactual Logical Modification with Large Language Models</font></strong><br />
+Yinya Huang, Ruixin Hong, Hongming Zhang, Wei Shao, <strong>Zhicheng Yang</strong>, Dong Yu, Changshui Zhang, Xiaodan Liang, Linqi Song <br />
+Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics. (ACL 2024) <br />
+[[Paper]](https://arxiv.org/abs/2311.17438) <br />
 
 <strong><font style = "color:#1f57b8">DQ-LoRe: Dual Queries with Low Rank Approximation Re-ranking for In-Context Learning</font></strong><br />
 Jing Xiong, Zixuan Li, Chuanyang Zheng, Zhijiang Guo, Yichun Yin, Enze Xie, <strong>Zhicheng Yang</strong>, Qingxing Cao, Haiming Wang, Xiongwei Han, Jing Tang, Chengming Li, Xiaodan Liang <br />
@@ -64,18 +63,23 @@ Xiaohan Lin, Qingxing Cao, Yinya Huang, **Zhicheng Yang**, Zhengying Liu, Zhengu
 Annual Conference of the North American Chapter of the Association for Computational Linguistics, 2024. (Findings of NAACL 2024)<br />
 [[Paper]](https://openreview.net/forum?id=H0RzzhAxTv&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FNAACL%2F2024%2FConference%2FAuthors%23your-submissions)) <br />
 
+<strong><font style = "color:#1f57b8">Template-based Contrastive Distillation Pre-training for Math Word Problem Solving</font></strong><br />
+Jinghui Qin*, <strong>Zhicheng Yang*</strong>, Jiaqi Chen, Xiaodan Liang and Liang Lin<br />
+IEEE Transactions on Neural Networks and Learning Systems, 2023. (TNNLS) <br />
+[[Paper]](https://ieeexplore.ieee.org/document/10113691) <br />
+
 (* denotes co-first authors) <br />
+
 
 Preprints
 ===
+<strong><font style = "color:#1f57b8">Benchmarking LLMs for Optimization Modeling and Enhancing Reasoning via Reverse Socratic Synthesis</font></strong><br />
+<strong>Zhicheng Yang</strong>, Yinya Huang, Jing Xiong, Liang Feng, Xiaodan Liang, Yiwei Wang, Jing Tang <br />
+[[Paper]](https://arxiv.org/abs/2407.09887) [[Code]](https://github.com/yangzhch6/ReSocratic) <br /> 
+
 <strong><font style = "color:#1f57b8">Speak Like a Native: Prompting Large Language Models in a Native Style</font></strong><br />
 <strong>Zhicheng Yang</strong>, Yiwei Wang, Yinya Huang, Jing Xiong, Xiaodan Liang, Jing Tang <br />
 [[Paper]](https://arxiv.org/abs/2311.13538) [[Code]](https://github.com/yangzhch6/AlignCoT) <br /> 
-
-<strong><font style = "color:#1f57b8">CLOMO: Counterfactual Logical Modification with Large Language Models</font></strong><br />
-Yinya Huang, Ruixin Hong, Hongming Zhang, Wei Shao, <strong>Zhicheng Yang</strong>, Dong Yu, Changshui Zhang, Xiaodan Liang, Linqi Song <br />
-[[Paper]](https://arxiv.org/abs/2311.17438) <br />
-
 
 
 Education
