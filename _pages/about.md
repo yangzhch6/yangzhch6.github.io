@@ -74,12 +74,12 @@ IEEE Transactions on Neural Networks and Learning Systems, 2023. (TNNLS) <br />
 Preprints
 ===
 <strong><font style = "color:#1f57b8">Benchmarking LLMs for Optimization Modeling and Enhancing Reasoning via Reverse Socratic Synthesis</font></strong><br />
-<strong>Zhicheng Yang</strong>, Yinya Huang, Jing Xiong, Liang Feng, Xiaodan Liang, Yiwei Wang, Jing Tang <br />
+<strong>Zhicheng Yang</strong>, Yinya Huang, Wei Shi, Liang Feng, Linqi Song, Yiwei Wang, Xiaodan Liang, Jing Tang <br />
 [[Paper]](https://arxiv.org/abs/2407.09887) [[Code]](https://github.com/yangzhch6/ReSocratic) <br /> 
 
-<strong><font style = "color:#1f57b8">Speak Like a Native: Prompting Large Language Models in a Native Style</font></strong><br />
-<strong>Zhicheng Yang</strong>, Yiwei Wang, Yinya Huang, Jing Xiong, Xiaodan Liang, Jing Tang <br />
-[[Paper]](https://arxiv.org/abs/2311.13538) [[Code]](https://github.com/yangzhch6/AlignCoT) <br /> 
+<strong><font style = "color:#1f57b8">AlignedCoT: Prompting Large Language Models via Native-Speaking Demonstrations</font></strong><br />
+<strong>Zhicheng Yang</strong>, Yinya Huang, Jing Xiong, Liang Feng, Xiaodan Liang, Yiwei Wang, Jing Tang <br />
+[[Paper]](https://arxiv.org/abs/2311.13538) [[Code]](https://github.com/yangzhch6/AlignedCoT) <br /> 
 
 
 Education
