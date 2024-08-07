@@ -93,7 +93,7 @@ Honors and Awards
 
 Experience
 ===
-* <div>Research Intern, Huawei Noah's Ark</div> 
+* <div>NLP Research Intern, Huawei Noah's Ark</div> 
 * <div>Recommender System Intern, ByteDance-Data-Douyin</div> 
 * <div>NLP Research Intern, DMAI</div> 
 
