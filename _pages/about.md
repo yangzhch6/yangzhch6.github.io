@@ -93,9 +93,9 @@ Honors and Awards
 
 Experience
 ===
-* <div>NLP Research Intern, DMAI<span style="float:right"> Apr 2021 --- Jun 2022</span></div> 
-* <div>Recommender System Intern, ByteDance-Data-Douyin<span style="float:right"> Jul 2022 --- Sep 2022</span></div> 
-* <div>Research Intern, Huawei Noah's Ark<span style="float:right"> May 2023 --- Aug 2023</span></div> 
+* <div>Research Intern, Huawei Noah's Ark</div> 
+* <div>Recommender System Intern, ByteDance-Data-Douyin</div> 
+* <div>NLP Research Intern, DMAI</div> 
 
 ---
 <script>
