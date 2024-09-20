@@ -19,16 +19,16 @@ Research Interests
 I have a broad interest in utilizing Large Models (LMs) for **complex reasoning** tasks.
 
 With the training text that would take 10^4 years for a human to read, LLMs excel beyond human capability in the domains of writing, translation, and knowledge reservoirs.
-However, their mathematical ability is still at the level of primary and secondary school students. 
+However, their reasoning ability is still significantly short of the human level.
 To fill this confusing and unignorable gap, I'm interested in the following topics:
 * Automatic Data Synthesis
 * Self-Evolution Framework
-* Learning Efficiency (performance improvement / data quantity)
+* Learning Efficiency (performance improvement / data usage)
 
 
 News
 ===
-- One paper accepted to ***Findings of EMNLP 2024***.
+- **<font style = "color:#FF8000">[9/2024]</font>** One paper accepted to ***Findings of EMNLP 2024***.
 - **<font style = "color:#FF8000">[5/2024]</font>** *Serve as the challenge lead organizer of [Automated Optimization Problem-Solving with Code](https://www.codabench.org/competitions/2438/) in [AI for Math Workshop and Challenges](https://sites.google.com/view/ai4mathworkshopicml2024) at [ICML 2024](https://icml.cc/Conferences/2024).*
 
 
