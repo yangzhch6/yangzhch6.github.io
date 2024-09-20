@@ -11,7 +11,7 @@ redirect_from:
 
 Short Bio
 ===
-I'm **Zhicheng YANG**, who is pursuing a Ph.D. degree advised by [Prof. Jing Tang](https://sites.google.com/view/jtang) and [Prof. Yiwei Wang](https://wangywust.github.io/). Before that, I obtained my Master's degree at the [HCP Lab](http://www.sysu-hcp.net/home/) and bachelor's degree of Computer Science and Technology in SYSU, where I was fortunately advised by [Prof. Xiaodan Liang](https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN) to conduct research in NLP.
+I'm **Zhicheng YANG**, who is pursuing a Ph.D. degree. I obtained my Master's degree at the [HCP Lab](http://www.sysu-hcp.net/home/) and bachelor's degree of Computer Science and Technology in SYSU, where I was fortunately advised by [Prof. Xiaodan Liang](https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN) to conduct research in NLP.
 
 
 Research Interests
@@ -28,6 +28,7 @@ To fill this confusing and unignorable gap, I'm interested in the following topi
 
 News
 ===
+- One paper accepted to ***Findings of EMNLP 2024***.
 - **<font style = "color:#FF8000">[5/2024]</font>** *Serve as the challenge lead organizer of [Automated Optimization Problem-Solving with Code](https://www.codabench.org/competitions/2438/) in [AI for Math Workshop and Challenges](https://sites.google.com/view/ai4mathworkshopicml2024) at [ICML 2024](https://icml.cc/Conferences/2024).*
 
 
@@ -37,16 +38,17 @@ Preprints
 <strong>Zhicheng Yang</strong>, Yinya Huang, Wei Shi, Liang Feng, Linqi Song, Yiwei Wang, Xiaodan Liang, Jing Tang <br />
 [[Paper]](https://arxiv.org/abs/2407.09887) [[Code]](https://github.com/yangzhch6/ReSocratic) <br /> 
 
-<strong><font style = "color:#1f57b8">AlignedCoT: Prompting Large Language Models via Native-Speaking Demonstrations</font></strong><br />
-<strong>Zhicheng Yang</strong>, Yinya Huang, Jing Xiong, Liang Feng, Xiaodan Liang, Yiwei Wang, Jing Tang <br />
-[[Paper]](https://arxiv.org/abs/2311.13538) [[Code]](https://github.com/yangzhch6/AlignedCoT) <br /> 
-
 
 Recent Publication 
 ===
+<strong><font style = "color:#1f57b8">AlignedCoT: Prompting Large Language Models via Native-Speaking Demonstrations</font></strong><br />
+<strong>Zhicheng Yang</strong>, Yinya Huang, Jing Xiong, Liang Feng, Xiaodan Liang, Yiwei Wang, Jing Tang <br />
+The 2024 Conference on Empirical Methods in Natural Language Processing. (Findings of EMNLP 2024) <br />
+[[Paper]](https://arxiv.org/abs/2311.13538) [[Code]](https://github.com/yangzhch6/AlignedCoT) <br /> 
+
 <strong><font style = "color:#1f57b8">LogicSolver: Towards Interpretable Math Word Problem Solving with Logical Prompt-enhanced Learning</font></strong><br />
 <strong>Zhicheng Yang<sup>*</sup></strong>, Jinghui Qin<sup>*</sup>, Jiaqi Chen, Liang Lin, Xiaodan Liang<br />
-The 2022 Conference on Empirical Methods in Natural Language Processing, 2022. (Findings of EMNLP 2022) <br />
+The 2022 Conference on Empirical Methods in Natural Language Processing. (Findings of EMNLP 2022) <br />
 [[Paper]](https://anthology.aclweb.org/2022.findings-emnlp.1/) [[Code]](https://github.com/yangzhch6/InterMWP)<br />
 
 <strong><font style = "color:#1f57b8">Unbiased Math Word Problems Benchmark for Mitigating Solving Bias</font></strong><br />
