@@ -81,8 +81,8 @@ IEEE Transactions on Neural Networks and Learning Systems, 2023. (TNNLS) <br />
 
 Education
 ===
-* 2020 --- 2023: **Mphil** in Pattern Recognition and Intelligent Systems, School of Intelligent Systems Engineering, Sun Yat-sen University. 
-* 2016 --- 2020: **B.Sc.** in Computer Science and Engineering, School of Computer Science and Engineering, Sun Yat-sen University.
+* 2020 --- 2023: **Master** in Pattern Recognition and Intelligent Systems, Sun Yat-sen University (Shenzhen)
+* 2016 --- 2020: **B.Sc.** in Computer Science and Technology, Sun Yat-sen University (Panyu)
 
 
 Honors and Awards
