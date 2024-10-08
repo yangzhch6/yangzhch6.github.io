@@ -34,9 +34,9 @@ News
 
 Preprints
 ===
-<strong><font style = "color:#1f57b8">Benchmarking LLMs for Optimization Modeling and Enhancing Reasoning via Reverse Socratic Synthesis</font></strong><br />
-<strong>Zhicheng Yang</strong>, Yinya Huang, Wei Shi, Liang Feng, Linqi Song, Yiwei Wang, Xiaodan Liang, Jing Tang <br />
-[[Paper]](https://arxiv.org/abs/2407.09887) [[Code]](https://github.com/yangzhch6/ReSocratic) <br /> 
+<strong><font style = "color:#1f57b8">OptiBench Meets ReSocratic: Measure and Improve LLMs for Optimization Modeling</font></strong><br />
+<strong>Zhicheng Yang</strong>, Yiwei Wang, Yinya Huang, Zhijiang Guo, Wei Shi, Xiongwei Han, Liang Feng, Linqi Song, Xiaodan Liang, Jing Tang<br />
+[[Paper]](https://arxiv.org/abs/2407.09887v2) [[Code]](https://github.com/yangzhch6/ReSocratic) <br /> 
 
 
 Recent Publication 
