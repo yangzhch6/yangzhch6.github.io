@@ -36,7 +36,7 @@ Preprints
 ===
 <strong><font style = "color:#1f57b8">OptiBench Meets ReSocratic: Measure and Improve LLMs for Optimization Modeling</font></strong><br />
 <strong>Zhicheng Yang</strong>, Yiwei Wang, Yinya Huang, Zhijiang Guo, Wei Shi, Xiongwei Han, Liang Feng, Linqi Song, Xiaodan Liang, Jing Tang<br />
-[[Paper]](https://arxiv.org/abs/2407.09887v2) [[Code]](https://github.com/yangzhch6/ReSocratic) <br /> 
+[[Paper]](https://arxiv.org/abs/2407.09887v3) [[Code]](https://github.com/yangzhch6/ReSocratic) <br /> 
 
 
 Recent Publication 
