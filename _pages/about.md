@@ -11,7 +11,7 @@ redirect_from:
 
 Short Bio
 ===
-I'm **Zhicheng YANG**, who is pursuing a Ph.D. degree. I obtained my Master's degree at the [HCP Lab](http://www.sysu-hcp.net/home/) and bachelor's degree of Computer Science and Technology in SYSU, where I was fortunately advised by [Prof. Xiaodan Liang](https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN) to conduct research in NLP.
+I obtained my Master's degree at the [HCP Lab](http://www.sysu-hcp.net/home/) and bachelor's degree in SYSU, where I was fortunately advised by [Prof. Xiaodan Liang](https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN) to conduct research in NLP.
 
 
 Research Interests
