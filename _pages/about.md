@@ -16,11 +16,7 @@ I'm **Zhicheng YANG**, who is pursuing a Ph.D. degree. I obtained my Master's de
 
 Research Interests
 ===
-I have a broad interest in utilizing Large Models (LMs) for **complex reasoning** tasks.
-
-With the training text that would take 10^4 years for a human to read, LLMs excel beyond human capability in the domains of writing, translation, and knowledge reservoirs.
-However, their reasoning ability is still significantly short of the human level.
-To fill this confusing and unignorable gap, I'm interested in the following topics:
+I have a broad interest in utilizing Large Models (LMs) for **complex reasoning** tasks. I'm interested in the following topics:
 * Automatic Data Synthesis
 * Self-Evolution Framework
 * Learning Efficiency (performance improvement / data usage)
