@@ -85,7 +85,6 @@ Honors and Awards
 ===
 * National First Prize, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM), China
 * First Prize Scholarship, Sun Yat-sen University
-* Second Prize Scholarship, Sun Yat-sen University
 
 Experience
 ===
