@@ -11,15 +11,18 @@ redirect_from:
 
 Short Bio
 ===
-I obtained my Master's degree at the [HCP Lab](http://www.sysu-hcp.net/home/) and bachelor's degree in SYSU, where I was fortunately advised by [Prof. Xiaodan Liang](https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN) to conduct research in NLP.
+<!-- I obtained my Master's degree at the [HCP Lab](http://www.sysu-hcp.net/home/) and bachelor's degree in SYSU, where I was fortunately advised by [Prof. Xiaodan Liang](https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN) to conduct research in NLP. -->
 
 
-Research Interests
-===
-I have a broad interest in utilizing Large Models (LMs) for **complex reasoning** tasks. I'm interested in the following topics:
+<!-- Research Interests
+=== -->
+I’m Zhicheng YANG, currently pursuing a PhD with a keen focus on Reasoning with Large Language Models (LLMs). Under the guidance and collaboration of esteemed advisors [Xiaodan Liang](https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN&oi=ao), [Zhijiang Guo](https://scholar.google.com/citations?user=8b-u3icAAAAJ&hl=zh-CN&oi=ao), [Yiwei Wang](https://scholar.google.com/citations?user=Sh9QvBkAAAAJ&hl=zh-CN&oi=ao), and [Jing Tang](https://scholar.google.com/citations?hl=zh-CN&user=0S4cpyoAAAAJ). I focus on the following topics:
 * Automatic Data Synthesis
+* Long Chain Reasoning
 * Self-Evolution Framework
 * Learning Efficiency (performance improvement / data usage)
+  
+> If you’re interested in collaborating or exploring potential research opportunities, please don’t hesitate to reach out (带带哥们). 
 
 
 News
@@ -35,12 +38,12 @@ Preprints
 [[Paper]](https://arxiv.org/abs/2407.09887v3) [[Code]](https://github.com/yangzhch6/ReSocratic) <br /> 
 
 
-Recent Publication 
+Selected Publication 
 ===
 <strong><font style = "color:#1f57b8">AlignedCoT: Prompting Large Language Models via Native-Speaking Demonstrations</font></strong><br />
 <strong>Zhicheng Yang</strong>, Yinya Huang, Jing Xiong, Liang Feng, Xiaodan Liang, Yiwei Wang, Jing Tang <br />
 The 2024 Conference on Empirical Methods in Natural Language Processing. (Findings of EMNLP 2024) <br />
-[[Paper]](https://arxiv.org/abs/2311.13538) [[Code]](https://github.com/yangzhch6/AlignedCoT) <br /> 
+[[Paper]](https://aclanthology.org/2024.findings-emnlp.163/) [[Code]](https://github.com/yangzhch6/AlignedCoT) <br /> 
 
 <strong><font style = "color:#1f57b8">LogicSolver: Towards Interpretable Math Word Problem Solving with Logical Prompt-enhanced Learning</font></strong><br />
 <strong>Zhicheng Yang<sup>*</sup></strong>, Jinghui Qin<sup>*</sup>, Jiaqi Chen, Liang Lin, Xiaodan Liang<br />
