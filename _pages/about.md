@@ -27,6 +27,7 @@ I’m Zhicheng YANG, currently pursuing a PhD with a keen focus on Reasoning wit
 
 News
 ===
+- **<font style = "color:#FF8000">[1/2025]</font>** [Yinya](https://eleanor-h.github.io/) and me will organize the [2nd AI4MATH workshop @ ICML 2025](https://sites.google.com/view/ai4mathworkshopicml2025)
 - **<font style = "color:#FF8000">[1/2025]</font>** One paper accepted to ***ICLR 2025***.
 - **<font style = "color:#FF8000">[9/2024]</font>** One paper accepted to ***Findings of EMNLP 2024***.
 - **<font style = "color:#FF8000">[5/2024]</font>** *Serve as the challenge lead organizer of [Automated Optimization Problem-Solving with Code](https://www.codabench.org/competitions/2438/) in [AI for Math Workshop and Challenges](https://sites.google.com/view/ai4mathworkshopicml2024) at [ICML 2024](https://icml.cc/Conferences/2024).*
