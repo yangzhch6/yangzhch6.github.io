@@ -37,13 +37,17 @@ News
 
 Preprints
 ===
+<strong><font style = "color:#1f57b8">TreeRPO: Tree Relative Policy Optimization</font></strong><br />
+<strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Xiaodan Liang, Yiwei Wang, Jing Tang<br />
+[[Paper]](https://arxiv.org/abs/2506.05183) [[Code]](https://github.com/yangzhch6/TreeRPO) <br /> 
+
 
 Selected Publication 
 ===
 <strong><font style = "color:#1f57b8">OptiBench Meets ReSocratic: Measure and Improve LLMs for Optimization Modeling</font></strong><br />
 <strong>Zhicheng Yang</strong>, Yiwei Wang, Yinya Huang, Zhijiang Guo, Wei Shi, Xiongwei Han, Liang Feng, Linqi Song, Xiaodan Liang, Jing Tang<br />
 The Thirteenth International Conference on Learning Representations (ICLR 2025) <br />
-[[Paper]](https://arxiv.org/abs/2407.09887v3) [[Code]](https://github.com/yangzhch6/ReSocratic) <br /> 
+[[Paper]](https://arxiv.org/abs/2407.09887) [[Code]](https://github.com/yangzhch6/ReSocratic) <br /> 
 
 <strong><font style = "color:#1f57b8">AlignedCoT: Prompting Large Language Models via Native-Speaking Demonstrations</font></strong><br />
 <strong>Zhicheng Yang</strong>, Yinya Huang, Jing Xiong, Liang Feng, Xiaodan Liang, Yiwei Wang, Jing Tang <br />
