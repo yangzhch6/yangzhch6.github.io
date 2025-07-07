@@ -19,10 +19,9 @@ Short Bio
 I’m Zhicheng YANG, currently pursuing a PhD with a keen focus on Reasoning with Large Language Models (LLMs). 
 <!-- Under the guidance and collaboration of esteemed advisors: [Xiaodan Liang](https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN&oi=ao), [Zhijiang Guo](https://scholar.google.com/citations?user=8b-u3icAAAAJ&hl=zh-CN&oi=ao), and [Jing Tang](https://scholar.google.com/citations?hl=zh-CN&user=0S4cpyoAAAAJ).  -->
 I focus on the following topics:
-* Automatic Data Synthesis
-* Long Chain Reasoning
-* Self-Evolution Framework
-* Learning Efficiency (performance improvement / data usage)
+* Honest Reasoning
+* Mix-policy RLVR
+* Complex Data Synthesis
   
 > If you’re interested in collaborating or exploring potential research opportunities, please don’t hesitate to reach out (带带哥们). 
 
