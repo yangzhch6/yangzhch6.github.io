@@ -19,8 +19,8 @@ Short Bio
 I’m Zhicheng YANG, currently pursuing a PhD with a keen focus on Reasoning with Large Language Models (LLMs). 
 <!-- Under the guidance and collaboration of esteemed advisors: [Xiaodan Liang](https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN&oi=ao), [Zhijiang Guo](https://scholar.google.com/citations?user=8b-u3icAAAAJ&hl=zh-CN&oi=ao), and [Jing Tang](https://scholar.google.com/citations?hl=zh-CN&user=0S4cpyoAAAAJ).  -->
 I focus on the following topics:
+* RLVR
 * Honest Reasoning
-* Mix-policy RLVR
 * Complex Data Synthesis
   
 > If you’re interested in collaborating or exploring potential research opportunities, please don’t hesitate to reach out (带带哥们). 
@@ -28,6 +28,7 @@ I focus on the following topics:
 
 News
 ===
+- **<font style = "color:#FF8000">[9/2025]</font>** Two papers accepted to ***EMNLP 2025*** Findings.
 - **<font style = "color:#FF8000">[1/2025]</font>** We are organizing the [2nd AI4MATH workshop @ ICML 2025](https://sites.google.com/view/ai4mathworkshopicml2025).
 - **<font style = "color:#FF8000">[1/2025]</font>** One paper accepted to ***ICLR 2025***.
 - **<font style = "color:#FF8000">[9/2024]</font>** One paper accepted to ***Findings of EMNLP 2024***.
