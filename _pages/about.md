@@ -46,7 +46,7 @@ Preprints
 [[Paper]](https://arxiv.org/pdf/2508.13755v1) [[Code]](https://github.com/yangzhch6/Mirror-Critique) <br /> 
 
 <strong><font style = "color:#1f57b8">TreeRPO: Tree Relative Policy Optimization</font></strong><br />
-<strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Xiaodan Liang, Yiwei Wang, Jing Tang<br />
+<strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Yiwei Wang, Xiaodan Liang, Jing Tang<br />
 [[Paper]](https://arxiv.org/abs/2509.23152) [[Code]](https://github.com/yangzhch6/TreeRPO) <br /> 
 
 
