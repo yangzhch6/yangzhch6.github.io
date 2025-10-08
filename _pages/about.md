@@ -20,7 +20,7 @@ I’m Zhicheng YANG, currently pursuing a PhD with a keen focus on Reasoning wit
 <!-- Under the guidance and collaboration of esteemed advisors: [Xiaodan Liang](https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN&oi=ao), [Zhijiang Guo](https://scholar.google.com/citations?user=8b-u3icAAAAJ&hl=zh-CN&oi=ao), and [Jing Tang](https://scholar.google.com/citations?hl=zh-CN&user=0S4cpyoAAAAJ).  -->
 I focus on the following topics:
 * RLVR
-* Honest Reasoning
+* Test-Time Scaling
 * Complex Data Synthesis
   
 > If you’re interested in collaborating or exploring potential research opportunities, please don’t hesitate to reach out (带带哥们). 
@@ -39,11 +39,11 @@ Preprints
 ===
 <strong><font style = "color:#1f57b8">Depth-Breadth Synergy in RLVR: Unlocking LLM Reasoning Gains with Adaptive Exploration</font></strong><br />
 <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Dongchun Xie, Yiwei Wang, Xiaodan Liang, Jing Tang<br />
-[[Paper]](https://arxiv.org/pdf/2508.13755v1) [[Code]](https://github.com/yangzhch6/DARS) <br /> 
+[[Paper]](https://arxiv.org/pdf/2508.13755) [[Code]](https://github.com/yangzhch6/DARS) <br /> 
 
 <strong><font style = "color:#1f57b8">Critique to Verify: Accurate and Honest Test-Time Scaling with RL-Trained Verifiers</font></strong><br />
 <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Yiwei Wang, Xiaodan Liang, Jing Tang<br />
-[[Paper]](https://arxiv.org/pdf/2508.13755v1) [[Code]](https://github.com/yangzhch6/Mirror-Critique) <br /> 
+[[Paper]](https://arxiv.org/pdf/2508.13755) [[Code]](https://github.com/yangzhch6/Mirror-Critique) <br /> 
 
 <strong><font style = "color:#1f57b8">TreeRPO: Tree Relative Policy Optimization</font></strong><br />
 <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Yiwei Wang, Xiaodan Liang, Jing Tang<br />
