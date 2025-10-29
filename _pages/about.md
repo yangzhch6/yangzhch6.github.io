@@ -38,7 +38,7 @@ News
 
 Preprints
 ===
-<strong><font style = "color:#1f57b8">Depth-Breadth Synergy in RLVR: Unlocking LLM Reasoning Gains with Adaptive Exploration</font></strong><br />
+<strong><font style = "color:#1f57b8">🔥Depth-Breadth Synergy in RLVR: Unlocking LLM Reasoning Gains with Adaptive Exploration</font></strong><br />
 <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Dongchun Xie, Yiwei Wang, Xiaodan Liang, Jing Tang<br />
 [[Paper]](https://arxiv.org/pdf/2508.13755) [[Code]](https://github.com/yangzhch6/DARS) <br /> 
 
@@ -109,6 +109,7 @@ Honors and Awards
 
 Experience
 ===
+* <div>LLM Research Intern, Seed</div> 
 * <div>NLP Research Intern, Huawei Noah's Ark</div> 
 * <div>Recommender System Intern, ByteDance-Data-Douyin</div> 
 * <div>NLP Research Intern, DMAI</div> 
