@@ -19,7 +19,7 @@ Short Bio
 Bro is currently pursuing a PhD degree with a keen focus on Reasoning with Large Language Models (LLMs). 
 <!-- Under the guidance and collaboration of esteemed advisors: [Xiaodan Liang](https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN&oi=ao), [Zhijiang Guo](https://scholar.google.com/citations?user=8b-u3icAAAAJ&hl=zh-CN&oi=ao), and [Jing Tang](https://scholar.google.com/citations?hl=zh-CN&user=0S4cpyoAAAAJ).  -->
 I focus on the following topics:
-* Reinforcement Learning for LLM Reasoning (*with* or *without* verifiable reward)
+* LLM Reasoning (*with* or *without* verifiable reward)
 * Reasoning Data Synthesis
 * Test-Time Scaling
 
