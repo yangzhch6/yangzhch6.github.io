@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-Short Bio
+About me
 ===
 <!-- I obtained my Master's degree at the [HCP Lab](http://www.sysu-hcp.net/home/) and bachelor's degree in SYSU, where I was fortunately advised by [Prof. Xiaodan Liang](https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN) to conduct research in NLP. -->
 
@@ -22,7 +22,7 @@ Specifically, I focus on the followings:
 * Reasoning Data Synthesis
 * Test-Time Scaling
 
-  
+
 > If you’re interested in collaborating or exploring potential research opportunities, please don’t hesitate to reach out (带带哥们). 
 
 
