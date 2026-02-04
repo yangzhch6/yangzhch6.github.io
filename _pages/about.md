@@ -39,16 +39,16 @@ Preprints
 ===
 <strong><font style = "color:#1f57b8">🔥Accordion-Thinking: Self-Regulated Step Summaries for Efficient and Readable LLM Reasoning</font></strong><br />
 <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Wenlei Shi, Yiwei Wang, Xiaodan Liang, Jing Tang<br />
-[[Paper]](https://arxiv.org/pdf/xxxxx) [[Code]](https://github.com/yangzhch6/Accordion-Thinking) <br /> 
+[[Paper]](https://arxiv.org/abs/2602.03249) [[Code]](https://github.com/yangzhch6/Accordion-Thinking) <br /> 
 
 
 <strong><font style = "color:#1f57b8">🔥Depth-Breadth Synergy in RLVR: Unlocking LLM Reasoning Gains with Adaptive Exploration</font></strong><br />
 <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Dongchun Xie, Yiwei Wang, Xiaodan Liang, Jing Tang<br />
-[[Paper]](https://arxiv.org/pdf/2508.13755) [[Code]](https://github.com/yangzhch6/DARS) <br /> 
+[[Paper]](https://arxiv.org/abs/2508.13755) [[Code]](https://github.com/yangzhch6/DARS) <br /> 
 
 <strong><font style = "color:#1f57b8">TreeRPO: Tree Relative Policy Optimization</font></strong><br />
 <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Yiwei Wang, Xiaodan Liang, Jing Tang<br />
-[[Paper]](https://arxiv.org/pdf/2506.05183) [[Code]](https://github.com/yangzhch6/TreeRPO) <br /> 
+[[Paper]](https://arxiv.org/abs/2506.05183) [[Code]](https://github.com/yangzhch6/TreeRPO) <br /> 
 
 <strong><font style = "color:#1f57b8">Critique to Verify: Accurate and Honest Test-Time Scaling with RL-Trained Verifiers</font></strong><br />
 <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Yiwei Wang, Xiaodan Liang, Jing Tang<br />
