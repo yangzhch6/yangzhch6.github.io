@@ -62,6 +62,11 @@ Selected Publication
 The Thirteenth International Conference on Learning Representations (ICLR 2025) <br />
 [[Paper]](https://arxiv.org/abs/2407.09887) [[Code]](https://github.com/yangzhch6/ReSocratic) <br /> 
 
+<strong><font style = "color:#1f57b8">CARE What Fails: Contrastive Anchored-REflection for Verifiable Multimodal</font></strong><br />
+Yongxin Wang, <strong>Zhicheng Yang</strong>, Meng Cao, Mingfei Han, Haokun Lin, Yingying Zhu, Xiaojun Chang, Xiaodan Liang<br />
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2026) <br />
+[[Paper]](https://arxiv.org/abs/2512.19554)  <br /> 
+
 <strong><font style = "color:#1f57b8">AlignedCoT: Prompting Large Language Models via Native-Speaking Demonstrations</font></strong><br />
 <strong>Zhicheng Yang</strong>, Yinya Huang, Jing Xiong, Liang Feng, Xiaodan Liang, Yiwei Wang, Jing Tang <br />
 The 2024 Conference on Empirical Methods in Natural Language Processing. (Findings of EMNLP 2024) <br />
