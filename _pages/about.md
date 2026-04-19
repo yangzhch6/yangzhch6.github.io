@@ -12,7 +12,7 @@ redirect_from:
 <div class="homepage">
   <section class="home-hero">
     <div class="home-hero__intro">
-      <p class="section-kicker">Academic Homepage</p>
+      <!-- <p class="section-kicker">Academic Homepage</p> -->
       <h1 class="home-hero__title">Zhicheng Yang</h1>
       <p class="home-hero__subtitle">PhD Candidate in Large Language Model Reasoning</p>
       <p class="home-hero__lead">
@@ -80,7 +80,7 @@ redirect_from:
   <section class="home-section home-section--top-grid">
     <div class="home-column">
       <div class="section-heading">
-        <p class="section-kicker">Academic Background</p>
+        <!-- <p class="section-kicker">Academic Background</p> -->
         <h2>Background</h2>
       </div>
 
@@ -122,7 +122,7 @@ redirect_from:
 
     <div id="home-news" class="home-column">
       <div class="section-heading">
-        <p class="section-kicker">News</p>
+        <!-- <p class="section-kicker">News</p> -->
         <h2>News</h2>
       </div>
       <div class="timeline timeline--compact">
