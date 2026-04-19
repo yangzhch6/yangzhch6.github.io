@@ -74,8 +74,8 @@
   padding: 2.25rem 0 1rem;
 
   @include breakpoint($medium) {
-    grid-template-columns: minmax(0, 1.42fr) minmax(236px, 0.76fr);
-    gap: 2.4rem;
+    grid-template-columns: minmax(0, 1.52fr) 212px;
+    gap: 1.35rem;
     padding-top: 3rem;
   }
 }
@@ -163,9 +163,9 @@
 .home-hero__aside {
   display: grid;
   gap: 0.75rem;
-  max-width: 236px;
+  max-width: 212px;
   width: 100%;
-  justify-self: end;
+  justify-self: start;
 }
 
 .portrait-card,
@@ -322,6 +322,11 @@
   line-height: 1.16;
 }
 
+.paper-card__meta {
+  display: grid;
+  gap: 0.12rem;
+}
+
 .paper-card__authors,
 .paper-card__venue {
   margin: 0;
@@ -330,11 +335,15 @@
   line-height: 1.42;
 }
 
+.paper-card__venue {
+  font-style: italic;
+}
+
 .paper-card__links {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
-  margin-top: 0.15rem;
+  margin-top: 0;
   padding-top: 0;
 
   a {

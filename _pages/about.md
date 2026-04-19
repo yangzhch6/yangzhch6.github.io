@@ -17,8 +17,9 @@ redirect_from:
       <p class="home-hero__subtitle">PhD Researcher in Large Language Model Reasoning</p>
       <p class="home-hero__lead">
         I work on reasoning-centric large language models, with current interests in solve-and-verify paradigms,
-        reasoning data synthesis, and test-time scaling. My recent work focuses on advanced, expert-level
-        mathematical reasoning, verification, and agentic reasoning.
+        reasoning data synthesis, and test-time scaling. My recent work focuses on advanced
+        <strong>expert-level mathematical reasoning</strong>, <strong>verification</strong>, and
+        <strong>agentic reasoning</strong>.
       </p>
       <div class="home-actions">
         <a class="home-button home-button--primary" href="#home-selected-papers">View Selected Papers</a>
@@ -81,7 +82,7 @@ redirect_from:
       <div class="timeline">
         <div class="timeline-item">
           <span class="timeline-item__date">Sep 2025</span>
-          <p>Two papers were accepted to Findings of EMNLP 2025.</p>
+          <p>Two papers were accepted to EMNLP 2025.</p>
         </div>
         <div class="timeline-item">
           <span class="timeline-item__date">Jan 2025</span>
@@ -96,6 +97,224 @@ redirect_from:
           <p>Served as challenge lead organizer for Automated Optimization Problem-Solving with Code at ICML 2024.</p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section id="home-preprints" class="home-section">
+    <div class="section-heading">
+      <p class="section-kicker">Preprints</p>
+      <h2>Current directions in efficient and verifiable LLM reasoning.</h2>
+    </div>
+
+    <div class="paper-grid paper-grid--compact">
+      <article class="paper-card paper-card--compact">
+        <p class="paper-card__label">Preprint</p>
+        <h3>&#128293; Accordion-Thinking: Self-Regulated Step Summaries for Efficient and Readable LLM Reasoning</h3>
+        <div class="paper-card__meta">
+          <p class="paper-card__authors">
+            <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Wenlei Shi, Yiwei Wang,
+            Xiaodan Liang, Jing Tang
+          </p>
+          <div class="paper-card__links">
+            <a href="https://arxiv.org/abs/2602.03249">Paper</a>
+            <a href="https://github.com/yangzhch6/Accordion-Thinking">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="paper-card paper-card--compact">
+        <p class="paper-card__label">Preprint</p>
+        <h3>&#128293;&#128293; Depth-Breadth Synergy in RLVR: Unlocking LLM Reasoning Gains with Adaptive Exploration</h3>
+        <div class="paper-card__meta">
+          <p class="paper-card__authors">
+            <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Dongchun Xie, Yiwei Wang,
+            Xiaodan Liang, Jing Tang
+          </p>
+          <div class="paper-card__links">
+            <a href="https://arxiv.org/abs/2508.13755">Paper</a>
+            <a href="https://github.com/yangzhch6/DARS">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="paper-card paper-card--compact">
+        <p class="paper-card__label">Preprint</p>
+        <h3>TreeRPO: Tree Relative Policy Optimization</h3>
+        <div class="paper-card__meta">
+          <p class="paper-card__authors">
+            <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Yiwei Wang, Xiaodan Liang,
+            Jing Tang
+          </p>
+          <div class="paper-card__links">
+            <a href="https://arxiv.org/abs/2506.05183">Paper</a>
+            <a href="https://github.com/yangzhch6/TreeRPO">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="paper-card paper-card--compact">
+        <p class="paper-card__label">Preprint</p>
+        <h3>Critique to Verify: Accurate and Honest Test-Time Scaling with RL-Trained Verifiers</h3>
+        <div class="paper-card__meta">
+          <p class="paper-card__authors">
+            <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Yiwei Wang, Xiaodan Liang,
+            Jing Tang
+          </p>
+          <div class="paper-card__links">
+            <a href="https://arxiv.org/abs/2509.23152">Paper</a>
+            <a href="https://github.com/yangzhch6/Mirror-Critique">Code</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="home-selected-papers" class="home-section">
+    <div class="section-heading">
+      <p class="section-kicker">Selected Papers</p>
+      <h2>Representative publications in reasoning, mathematical intelligence, and verification.</h2>
+      <p class="section-copy">
+        A selection of recent and representative works across language reasoning, optimization modeling, and
+        mathematically grounded problem solving.
+      </p>
+    </div>
+
+    <div class="paper-grid">
+      <article class="paper-card paper-card--featured">
+        <p class="paper-card__label">ICLR 2025</p>
+        <h3>OptiBench Meets ReSocratic: Measure and Improve LLMs for Optimization Modeling</h3>
+        <div class="paper-card__meta">
+          <p class="paper-card__authors">
+            <strong>Zhicheng Yang</strong>, Yiwei Wang, Yinya Huang, Zhijiang Guo, Wei Shi, Xiongwei Han, Liang Feng,
+            Linqi Song, Xiaodan Liang, Jing Tang
+          </p>
+          <p class="paper-card__venue">The Thirteenth International Conference on Learning Representations</p>
+          <div class="paper-card__links">
+            <a href="https://arxiv.org/abs/2407.09887">Paper</a>
+            <a href="https://github.com/yangzhch6/ReSocratic">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="paper-card">
+        <p class="paper-card__label">CVPR 2026</p>
+        <h3>CARE What Fails: Contrastive Anchored-REflection for Verifiable Multimodal Reasoning</h3>
+        <div class="paper-card__meta">
+          <p class="paper-card__authors">
+            Yongxin Wang, <strong>Zhicheng Yang</strong>, Meng Cao, Mingfei Han, Haokun Lin, Yingying Zhu,
+            Xiaojun Chang, Xiaodan Liang
+          </p>
+          <p class="paper-card__venue">IEEE Conference on Computer Vision and Pattern Recognition</p>
+          <div class="paper-card__links">
+            <a href="https://arxiv.org/abs/2512.19554">Paper</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="paper-card">
+        <p class="paper-card__label">NeurIPS 2024</p>
+        <h3>Proving Theorems Recursively</h3>
+        <div class="paper-card__meta">
+          <p class="paper-card__authors">
+            Haiming Wang, Huajian Xin, Zhengying Liu, Wenda Li, Yinya Huang, Jianqiao Lu,
+            <strong>Zhicheng Yang</strong>, Jing Tang, Jian Yin, Zhenguo Li, Xiaodan Liang
+          </p>
+          <p class="paper-card__venue">Advances in Neural Information Processing Systems 37</p>
+          <div class="paper-card__links">
+            <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/9de7a49945898da86e062e7029baa284-Abstract-Conference.html">Paper</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="paper-card">
+        <p class="paper-card__label">Findings of EMNLP 2024</p>
+        <h3>AlignedCoT: Prompting Large Language Models via Native-Speaking Demonstrations</h3>
+        <div class="paper-card__meta">
+          <p class="paper-card__authors">
+            <strong>Zhicheng Yang</strong>, Yinya Huang, Jing Xiong, Liang Feng, Xiaodan Liang, Yiwei Wang,
+            Jing Tang
+          </p>
+          <p class="paper-card__venue">Conference on Empirical Methods in Natural Language Processing</p>
+          <div class="paper-card__links">
+            <a href="https://aclanthology.org/2024.findings-emnlp.163/">Paper</a>
+            <a href="https://github.com/yangzhch6/AlignedCoT">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="paper-card">
+        <p class="paper-card__label">ACL 2024</p>
+        <h3>CLOMO: Counterfactual Logical Modification with Large Language Models</h3>
+        <div class="paper-card__meta">
+          <p class="paper-card__authors">
+            Yinya Huang, Ruixin Hong, Hongming Zhang, Wei Shao, <strong>Zhicheng Yang</strong>, Dong Yu,
+            Changshui Zhang, Xiaodan Liang, Linqi Song
+          </p>
+          <p class="paper-card__venue">Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics</p>
+          <div class="paper-card__links">
+            <a href="https://aclanthology.org/2024.acl-long.593/">Paper</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="paper-card">
+        <p class="paper-card__label">Findings of NAACL 2024</p>
+        <h3>ATG: Benchmarking Automated Theorem Generation for Generative Language Models</h3>
+        <div class="paper-card__meta">
+          <p class="paper-card__authors">
+            Xiaohan Lin, Qingxing Cao, Yinya Huang, <strong>Zhicheng Yang</strong>, Zhengying Liu, Zhenguo Li,
+            Xiaodan Liang
+          </p>
+          <p class="paper-card__venue">Findings of the Association for Computational Linguistics: NAACL 2024</p>
+          <div class="paper-card__links">
+            <a href="https://aclanthology.org/2024.findings-naacl.279/">Paper</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="paper-card">
+        <p class="paper-card__label">Findings of EMNLP 2022</p>
+        <h3>LogicSolver: Towards Interpretable Math Word Problem Solving with Logical Prompt-Enhanced Learning</h3>
+        <div class="paper-card__meta">
+          <p class="paper-card__authors">
+            <strong>Zhicheng Yang*</strong>, Jinghui Qin*, Jiaqi Chen, Liang Lin, Xiaodan Liang
+          </p>
+          <p class="paper-card__venue">Conference on Empirical Methods in Natural Language Processing</p>
+          <div class="paper-card__links">
+            <a href="https://anthology.aclweb.org/2022.findings-emnlp.1/">Paper</a>
+            <a href="https://github.com/yangzhch6/InterMWP">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="paper-card">
+        <p class="paper-card__label">Findings of NAACL 2022</p>
+        <h3>Unbiased Math Word Problems Benchmark for Mitigating Solving Bias</h3>
+        <div class="paper-card__meta">
+          <p class="paper-card__authors">
+            <strong>Zhicheng Yang</strong>, Jinghui Qin, Jiaqi Chen, Xiaodan Liang
+          </p>
+          <p class="paper-card__venue">Annual Conference of the North American Chapter of the ACL</p>
+          <div class="paper-card__links">
+            <a href="https://aclanthology.org/2022.findings-naacl.104/">Paper</a>
+            <a href="https://github.com/yangzhch6/UnbiasedMWP">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="paper-card">
+        <p class="paper-card__label">TNNLS 2023</p>
+        <h3>Template-based Contrastive Distillation Pre-training for Math Word Problem Solving</h3>
+        <div class="paper-card__meta">
+          <p class="paper-card__authors">
+            Jinghui Qin*, <strong>Zhicheng Yang*</strong>, Jiaqi Chen, Xiaodan Liang, Liang Lin
+          </p>
+          <p class="paper-card__venue">IEEE Transactions on Neural Networks and Learning Systems</p>
+          <div class="paper-card__links">
+            <a href="https://ieeexplore.ieee.org/document/10113691">Paper</a>
+          </div>
+        </div>
+      </article>
     </div>
   </section>
 
@@ -137,195 +356,6 @@ redirect_from:
           <li>Area Chair, ACL Rolling Review (ARR), January 2026</li>
           <li>Reviewer for ICML, NeurIPS, ICLR, ACL, EMNLP, NAACL, and TNNLS</li>
         </ul>
-      </article>
-    </div>
-  </section>
-
-  <section id="home-preprints" class="home-section">
-    <div class="section-heading">
-      <p class="section-kicker">Preprints</p>
-      <h2>Current directions in efficient and verifiable LLM reasoning.</h2>
-    </div>
-
-    <div class="paper-grid paper-grid--compact">
-      <article class="paper-card paper-card--compact">
-        <p class="paper-card__label">Preprint</p>
-        <h3>&#128293; Accordion-Thinking: Self-Regulated Step Summaries for Efficient and Readable LLM Reasoning</h3>
-        <p class="paper-card__authors">
-          <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Wenlei Shi, Yiwei Wang, Xiaodan Liang,
-          Jing Tang
-        </p>
-        <div class="paper-card__links">
-          <a href="https://arxiv.org/abs/2602.03249">Paper</a>
-          <a href="https://github.com/yangzhch6/Accordion-Thinking">Code</a>
-        </div>
-      </article>
-
-      <article class="paper-card paper-card--compact">
-        <p class="paper-card__label">Preprint</p>
-        <h3>&#128293;&#128293; Depth-Breadth Synergy in RLVR: Unlocking LLM Reasoning Gains with Adaptive Exploration</h3>
-        <p class="paper-card__authors">
-          <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Dongchun Xie, Yiwei Wang,
-          Xiaodan Liang, Jing Tang
-        </p>
-        <div class="paper-card__links">
-          <a href="https://arxiv.org/abs/2508.13755">Paper</a>
-          <a href="https://github.com/yangzhch6/DARS">Code</a>
-        </div>
-      </article>
-
-      <article class="paper-card paper-card--compact">
-        <p class="paper-card__label">Preprint</p>
-        <h3>TreeRPO: Tree Relative Policy Optimization</h3>
-        <p class="paper-card__authors">
-          <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Yiwei Wang, Xiaodan Liang, Jing Tang
-        </p>
-        <div class="paper-card__links">
-          <a href="https://arxiv.org/abs/2506.05183">Paper</a>
-          <a href="https://github.com/yangzhch6/TreeRPO">Code</a>
-        </div>
-      </article>
-
-      <article class="paper-card paper-card--compact">
-        <p class="paper-card__label">Preprint</p>
-        <h3>Critique to Verify: Accurate and Honest Test-Time Scaling with RL-Trained Verifiers</h3>
-        <p class="paper-card__authors">
-          <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Yiwei Wang, Xiaodan Liang, Jing Tang
-        </p>
-        <div class="paper-card__links">
-          <a href="https://arxiv.org/abs/2509.23152">Paper</a>
-          <a href="https://github.com/yangzhch6/Mirror-Critique">Code</a>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <section id="home-selected-papers" class="home-section">
-    <div class="section-heading">
-      <p class="section-kicker">Selected Papers</p>
-      <h2>Representative publications in reasoning, mathematical intelligence, and verification.</h2>
-      <p class="section-copy">
-        A selection of recent and representative works across language reasoning, optimization modeling, and
-        mathematically grounded problem solving.
-      </p>
-    </div>
-
-    <div class="paper-grid">
-      <article class="paper-card paper-card--featured">
-        <p class="paper-card__label">ICLR 2025</p>
-        <h3>OptiBench Meets ReSocratic: Measure and Improve LLMs for Optimization Modeling</h3>
-        <p class="paper-card__authors">
-          <strong>Zhicheng Yang</strong>, Yiwei Wang, Yinya Huang, Zhijiang Guo, Wei Shi, Xiongwei Han, Liang Feng,
-          Linqi Song, Xiaodan Liang, Jing Tang
-        </p>
-        <p class="paper-card__venue">The Thirteenth International Conference on Learning Representations</p>
-        <div class="paper-card__links">
-          <a href="https://arxiv.org/abs/2407.09887">Paper</a>
-          <a href="https://github.com/yangzhch6/ReSocratic">Code</a>
-        </div>
-      </article>
-
-      <article class="paper-card">
-        <p class="paper-card__label">CVPR 2026</p>
-        <h3>CARE What Fails: Contrastive Anchored-REflection for Verifiable Multimodal Reasoning</h3>
-        <p class="paper-card__authors">
-          Yongxin Wang, <strong>Zhicheng Yang</strong>, Meng Cao, Mingfei Han, Haokun Lin, Yingying Zhu, Xiaojun Chang,
-          Xiaodan Liang
-        </p>
-        <p class="paper-card__venue">IEEE Conference on Computer Vision and Pattern Recognition</p>
-        <div class="paper-card__links">
-          <a href="https://arxiv.org/abs/2512.19554">Paper</a>
-        </div>
-      </article>
-
-      <article class="paper-card">
-        <p class="paper-card__label">NeurIPS 2024</p>
-        <h3>Proving Theorems Recursively</h3>
-        <p class="paper-card__authors">
-          Haiming Wang, Huajian Xin, Zhengying Liu, Wenda Li, Yinya Huang, Jianqiao Lu, <strong>Zhicheng Yang</strong>,
-          Jing Tang, Jian Yin, Zhenguo Li, Xiaodan Liang
-        </p>
-        <p class="paper-card__venue">Advances in Neural Information Processing Systems 37</p>
-        <div class="paper-card__links">
-          <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/9de7a49945898da86e062e7029baa284-Abstract-Conference.html">Paper</a>
-        </div>
-      </article>
-
-      <article class="paper-card">
-        <p class="paper-card__label">Findings of EMNLP 2024</p>
-        <h3>AlignedCoT: Prompting Large Language Models via Native-Speaking Demonstrations</h3>
-        <p class="paper-card__authors">
-          <strong>Zhicheng Yang</strong>, Yinya Huang, Jing Xiong, Liang Feng, Xiaodan Liang, Yiwei Wang, Jing Tang
-        </p>
-        <p class="paper-card__venue">Conference on Empirical Methods in Natural Language Processing</p>
-        <div class="paper-card__links">
-          <a href="https://aclanthology.org/2024.findings-emnlp.163/">Paper</a>
-          <a href="https://github.com/yangzhch6/AlignedCoT">Code</a>
-        </div>
-      </article>
-
-      <article class="paper-card">
-        <p class="paper-card__label">ACL 2024</p>
-        <h3>CLOMO: Counterfactual Logical Modification with Large Language Models</h3>
-        <p class="paper-card__authors">
-          Yinya Huang, Ruixin Hong, Hongming Zhang, Wei Shao, <strong>Zhicheng Yang</strong>, Dong Yu, Changshui Zhang,
-          Xiaodan Liang, Linqi Song
-        </p>
-        <p class="paper-card__venue">Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics</p>
-        <div class="paper-card__links">
-          <a href="https://aclanthology.org/2024.acl-long.593/">Paper</a>
-        </div>
-      </article>
-
-      <article class="paper-card">
-        <p class="paper-card__label">Findings of NAACL 2024</p>
-        <h3>ATG: Benchmarking Automated Theorem Generation for Generative Language Models</h3>
-        <p class="paper-card__authors">
-          Xiaohan Lin, Qingxing Cao, Yinya Huang, <strong>Zhicheng Yang</strong>, Zhengying Liu, Zhenguo Li,
-          Xiaodan Liang
-        </p>
-        <p class="paper-card__venue">Findings of the Association for Computational Linguistics: NAACL 2024</p>
-        <div class="paper-card__links">
-          <a href="https://aclanthology.org/2024.findings-naacl.279/">Paper</a>
-        </div>
-      </article>
-
-      <article class="paper-card">
-        <p class="paper-card__label">Findings of EMNLP 2022</p>
-        <h3>LogicSolver: Towards Interpretable Math Word Problem Solving with Logical Prompt-Enhanced Learning</h3>
-        <p class="paper-card__authors">
-          <strong>Zhicheng Yang*</strong>, Jinghui Qin*, Jiaqi Chen, Liang Lin, Xiaodan Liang
-        </p>
-        <p class="paper-card__venue">Conference on Empirical Methods in Natural Language Processing</p>
-        <div class="paper-card__links">
-          <a href="https://anthology.aclweb.org/2022.findings-emnlp.1/">Paper</a>
-          <a href="https://github.com/yangzhch6/InterMWP">Code</a>
-        </div>
-      </article>
-
-      <article class="paper-card">
-        <p class="paper-card__label">Findings of NAACL 2022</p>
-        <h3>Unbiased Math Word Problems Benchmark for Mitigating Solving Bias</h3>
-        <p class="paper-card__authors">
-          <strong>Zhicheng Yang</strong>, Jinghui Qin, Jiaqi Chen, Xiaodan Liang
-        </p>
-        <p class="paper-card__venue">Annual Conference of the North American Chapter of the ACL</p>
-        <div class="paper-card__links">
-          <a href="https://aclanthology.org/2022.findings-naacl.104/">Paper</a>
-          <a href="https://github.com/yangzhch6/UnbiasedMWP">Code</a>
-        </div>
-      </article>
-
-      <article class="paper-card">
-        <p class="paper-card__label">TNNLS 2023</p>
-        <h3>Template-based Contrastive Distillation Pre-training for Math Word Problem Solving</h3>
-        <p class="paper-card__authors">
-          Jinghui Qin*, <strong>Zhicheng Yang*</strong>, Jiaqi Chen, Xiaodan Liang, Liang Lin
-        </p>
-        <p class="paper-card__venue">IEEE Transactions on Neural Networks and Learning Systems</p>
-        <div class="paper-card__links">
-          <a href="https://ieeexplore.ieee.org/document/10113691">Paper</a>
-        </div>
       </article>
     </div>
   </section>
