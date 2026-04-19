@@ -14,16 +14,10 @@ redirect_from:
     <div class="home-hero__intro">
       <p class="section-kicker">Academic Homepage</p>
       <h1 class="home-hero__title">Zhicheng Yang</h1>
-      <p class="home-hero__subtitle">PhD Researcher in Large Language Model Reasoning</p>
+      <p class="home-hero__subtitle">PhD Candidate in Large Language Model Reasoning</p>
       <p class="home-hero__lead">
-        I work on reasoning-centric large language models, with current interests in solve-and-verify paradigms,
-        reasoning data synthesis, and test-time scaling. My recent work focuses on advanced
-        <strong>expert-level mathematical reasoning</strong>, <strong>verification</strong>, and
-        <strong>agentic reasoning</strong>.
-      </p>
-      <p class="home-hero__detail">
-        I am particularly interested in building reasoning systems that can plan, critique, and verify long-horizon
-        solutions with stronger reliability, efficiency, and multi-step problem-solving ability.
+        I'm pursuing a PhD degree. I work on reasoning-centric large language models, with current interests in solve-and-verify paradigms, reasoning data synthesis, and test-time scaling. My recent work focuses on
+        <strong>advanced expert-level mathematical reasoning</strong>, <strong>verification</strong>, <strong>efficiency & readability CoT</strong>, and <strong>agentic reasoning</strong>.
       </p>
       <div class="home-actions">
         <a class="home-button home-button--primary" href="#home-selected-papers">View Selected Papers</a>
@@ -47,7 +41,7 @@ redirect_from:
           <p class="portrait-card__label">Research Themes</p>
           <div class="topic-list">
             <span class="topic-pill">Solve &amp; Verify</span>
-            <span class="topic-pill">Reasoning Data Synthesis</span>
+            <span class="topic-pill">CoT Synthesis</span>
             <span class="topic-pill">Test-Time Scaling</span>
           </div>
         </div>
