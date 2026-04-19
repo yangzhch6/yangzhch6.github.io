@@ -1,130 +1,333 @@
 ---
 permalink: /
 title: ""
-excerpt: "About me"
-author_profile: true
-redirect_from: 
+excerpt: "Zhicheng Yang | Academic Homepage"
+layout: splash
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
+<div class="homepage">
+  <section class="home-hero">
+    <div class="home-hero__intro">
+      <p class="section-kicker">Academic Homepage</p>
+      <h1 class="home-hero__title">Zhicheng Yang</h1>
+      <p class="home-hero__subtitle">PhD Researcher in Large Language Model Reasoning</p>
+      <p class="home-hero__lead">
+        I work on reasoning-centric large language models, with current interests in solve-and-verify paradigms,
+        reasoning data synthesis, and test-time scaling. My recent work studies how to make LLM reasoning more
+        reliable, efficient, and verifiable.
+      </p>
+      <div class="home-actions">
+        <a class="home-button home-button--primary" href="#home-selected-papers">View Selected Papers</a>
+        <a class="home-button home-button--secondary" href="mailto:yangzhch6@gmail.com">Get in Touch</a>
+      </div>
+      <div class="home-link-list">
+        <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=ZvXicO8AAAAJ">Google Scholar</a>
+        <a href="https://github.com/yangzhch6">GitHub</a>
+        <a href="mailto:yangzhch6@gmail.com">Email</a>
+      </div>
+    </div>
 
-About me
-===
-<!-- I obtained my Master's degree at the [HCP Lab](http://www.sysu-hcp.net/home/) and bachelor's degree in SYSU, where I was fortunately advised by [Prof. Xiaodan Liang](https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN) to conduct research in NLP. -->
+    <div class="home-hero__aside">
+      <div class="portrait-card">
+        <img
+          class="portrait-card__image"
+          src="{{ '/images/yangzhch6_new.png' | relative_url }}"
+          alt="Portrait of Zhicheng Yang"
+        >
+        <div class="portrait-card__body">
+          <p class="portrait-card__label">Research Themes</p>
+          <div class="topic-list">
+            <span class="topic-pill">Solve &amp; Verify</span>
+            <span class="topic-pill">Reasoning Data Synthesis</span>
+            <span class="topic-pill">Test-Time Scaling</span>
+          </div>
+        </div>
+      </div>
 
+    </div>
+  </section>
 
-<!-- Research Interests
-=== -->
-Bro is currently pursuing a PhD degree with a keen focus on Reasoning with Large Language Models (LLMs). 
-Specifically, I focus on the followings:
-* Solve & Verify
-* Reasoning Data Synthesis
-* Test-Time Scaling
+  <section class="home-section home-section--split">
+    <div class="home-column">
+      <div class="section-heading">
+        <p class="section-kicker">Research Interests</p>
+        <h2>Reasoning-centric research across LLMs, verification, and agentic systems.</h2>
+      </div>
+      <div class="topic-list topic-list--wide">
+        <span class="topic-pill">Reasoning with Large Language Models</span>
+        <span class="topic-pill">Solve &amp; Verify</span>
+        <span class="topic-pill">Reasoning Data Synthesis</span>
+        <span class="topic-pill">Test-Time Scaling</span>
+        <span class="topic-pill">Agentic Reasoning</span>
+        <span class="topic-pill">Mathematical Reasoning</span>
+      </div>
+      <p class="section-copy">
+        My research centers on strong reasoning in large language models, including solve-and-verify methods,
+        reasoning data synthesis, test-time scaling, and agentic reasoning. I am particularly interested in pushing
+        LLMs toward stronger multi-step problem solving, more capable reasoning behaviors, and more effective
+        reasoning-oriented systems.
+      </p>
+    </div>
 
+    <div id="home-news" class="home-column">
+      <div class="section-heading">
+        <p class="section-kicker">News</p>
+        <h2>Recent updates.</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-item__date">Sep 2025</span>
+          <p>Two papers were accepted to Findings of EMNLP 2025.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-item__date">Jan 2025</span>
+          <p>Co-organizing the 2nd AI4MATH Workshop at ICML 2025.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-item__date">Jan 2025</span>
+          <p>One paper was accepted to ICLR 2025.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-item__date">May 2024</span>
+          <p>Served as challenge lead organizer for Automated Optimization Problem-Solving with Code at ICML 2024.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-> If you’re interested in collaborating or exploring potential research opportunities, please don’t hesitate to reach out (带带哥们). 
+  <section class="home-section">
+    <div class="section-heading">
+      <p class="section-kicker">Academic Background</p>
+      <h2>Training, experience, and academic distinctions.</h2>
+    </div>
 
+    <div class="credential-grid">
+      <article class="credential-card">
+        <h3>Experience</h3>
+        <ul class="detail-list">
+          <li>LLM Research Intern, ByteDance Seed</li>
+          <li>LLM Research Intern, Huawei Noah's Ark Lab</li>
+          <li>Recommender System Intern, ByteDance Douyin</li>
+        </ul>
+      </article>
 
-News
-===
-- **<font style = "color:#FF8000">[9/2025]</font>** Two papers accepted to ***EMNLP 2025*** Findings.
-- **<font style = "color:#FF8000">[1/2025]</font>** We are organizing the [2nd AI4MATH workshop @ ICML 2025](https://sites.google.com/view/ai4mathworkshopicml2025).
-- **<font style = "color:#FF8000">[1/2025]</font>** One paper accepted to ***ICLR 2025***.
-- **<font style = "color:#FF8000">[9/2024]</font>** One paper accepted to ***Findings of EMNLP 2024***.
-- **<font style = "color:#FF8000">[5/2024]</font>** *Serve as the challenge lead organizer of [Automated Optimization Problem-Solving with Code](https://www.codabench.org/competitions/2438/) in [AI for Math Workshop and Challenges](https://sites.google.com/view/ai4mathworkshopicml2024) at [ICML 2024](https://icml.cc/Conferences/2024).*
+      <article class="credential-card">
+        <h3>Education</h3>
+        <ul class="detail-list">
+          <li>2020 - 2023: Master in Pattern Recognition and Intelligent Systems, Sun Yat-sen University</li>
+          <li>2016 - 2020: B.Sc. in Computer Science and Technology, Sun Yat-sen University</li>
+        </ul>
+      </article>
 
+      <article class="credential-card">
+        <h3>Honors &amp; Awards</h3>
+        <ul class="detail-list">
+          <li>National First Prize, Contemporary Undergraduate Mathematical Contest in Modeling</li>
+          <li>First Prize Scholarship, Sun Yat-sen University</li>
+        </ul>
+      </article>
 
-Preprints
-===
-<strong><font style = "color:#1f57b8">🔥Accordion-Thinking: Self-Regulated Step Summaries for Efficient and Readable LLM Reasoning</font></strong><br />
-<strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Wenlei Shi, Yiwei Wang, Xiaodan Liang, Jing Tang<br />
-[[Paper]](https://arxiv.org/abs/2602.03249) [[Code]](https://github.com/yangzhch6/Accordion-Thinking) <br /> 
+      <article class="credential-card">
+        <h3>Professional Service</h3>
+        <ul class="detail-list">
+          <li>Area Chair, ACL Rolling Review (ARR), January 2026</li>
+          <li>Reviewer for ICML, NeurIPS, ICLR, ACL, EMNLP, NAACL, and TNNLS</li>
+        </ul>
+      </article>
+    </div>
+  </section>
 
+  <section id="home-preprints" class="home-section">
+    <div class="section-heading">
+      <p class="section-kicker">Preprints</p>
+      <h2>Current directions in efficient and verifiable LLM reasoning.</h2>
+    </div>
 
-<strong><font style = "color:#1f57b8">🔥🔥Depth-Breadth Synergy in RLVR: Unlocking LLM Reasoning Gains with Adaptive Exploration</font></strong><br />
-<strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Dongchun Xie, Yiwei Wang, Xiaodan Liang, Jing Tang<br />
-[[Paper]](https://arxiv.org/abs/2508.13755) [[Code]](https://github.com/yangzhch6/DARS) <br /> 
+    <div class="paper-grid paper-grid--compact">
+      <article class="paper-card paper-card--compact">
+        <p class="paper-card__label">Preprint</p>
+        <h3>&#128293; Accordion-Thinking: Self-Regulated Step Summaries for Efficient and Readable LLM Reasoning</h3>
+        <p class="paper-card__authors">
+          <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Wenlei Shi, Yiwei Wang, Xiaodan Liang,
+          Jing Tang
+        </p>
+        <div class="paper-card__links">
+          <a href="https://arxiv.org/abs/2602.03249">Paper</a>
+          <a href="https://github.com/yangzhch6/Accordion-Thinking">Code</a>
+        </div>
+      </article>
 
-<strong><font style = "color:#1f57b8">TreeRPO: Tree Relative Policy Optimization</font></strong><br />
-<strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Yiwei Wang, Xiaodan Liang, Jing Tang<br />
-[[Paper]](https://arxiv.org/abs/2506.05183) [[Code]](https://github.com/yangzhch6/TreeRPO) <br /> 
+      <article class="paper-card paper-card--compact">
+        <p class="paper-card__label">Preprint</p>
+        <h3>&#128293;&#128293; Depth-Breadth Synergy in RLVR: Unlocking LLM Reasoning Gains with Adaptive Exploration</h3>
+        <p class="paper-card__authors">
+          <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Dongchun Xie, Yiwei Wang,
+          Xiaodan Liang, Jing Tang
+        </p>
+        <div class="paper-card__links">
+          <a href="https://arxiv.org/abs/2508.13755">Paper</a>
+          <a href="https://github.com/yangzhch6/DARS">Code</a>
+        </div>
+      </article>
 
-<strong><font style = "color:#1f57b8">Critique to Verify: Accurate and Honest Test-Time Scaling with RL-Trained Verifiers</font></strong><br />
-<strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Yiwei Wang, Xiaodan Liang, Jing Tang<br />
-[[Paper]](https://arxiv.org/abs/2509.23152) [[Code]](https://github.com/yangzhch6/Mirror-Critique) <br /> 
+      <article class="paper-card paper-card--compact">
+        <p class="paper-card__label">Preprint</p>
+        <h3>TreeRPO: Tree Relative Policy Optimization</h3>
+        <p class="paper-card__authors">
+          <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Yiwei Wang, Xiaodan Liang, Jing Tang
+        </p>
+        <div class="paper-card__links">
+          <a href="https://arxiv.org/abs/2506.05183">Paper</a>
+          <a href="https://github.com/yangzhch6/TreeRPO">Code</a>
+        </div>
+      </article>
 
+      <article class="paper-card paper-card--compact">
+        <p class="paper-card__label">Preprint</p>
+        <h3>Critique to Verify: Accurate and Honest Test-Time Scaling with RL-Trained Verifiers</h3>
+        <p class="paper-card__authors">
+          <strong>Zhicheng Yang</strong>, Zhijiang Guo, Yinya Huang, Yongxin Wang, Yiwei Wang, Xiaodan Liang, Jing Tang
+        </p>
+        <div class="paper-card__links">
+          <a href="https://arxiv.org/abs/2509.23152">Paper</a>
+          <a href="https://github.com/yangzhch6/Mirror-Critique">Code</a>
+        </div>
+      </article>
+    </div>
+  </section>
 
-Selected Publication 
-===
-<strong><font style = "color:#1f57b8">OptiBench Meets ReSocratic: Measure and Improve LLMs for Optimization Modeling</font></strong><br />
-<strong>Zhicheng Yang</strong>, Yiwei Wang, Yinya Huang, Zhijiang Guo, Wei Shi, Xiongwei Han, Liang Feng, Linqi Song, Xiaodan Liang, Jing Tang<br />
-The Thirteenth International Conference on Learning Representations (ICLR 2025) <br />
-[[Paper]](https://arxiv.org/abs/2407.09887) [[Code]](https://github.com/yangzhch6/ReSocratic) <br /> 
+  <section id="home-selected-papers" class="home-section">
+    <div class="section-heading">
+      <p class="section-kicker">Selected Papers</p>
+      <h2>Representative publications in reasoning, mathematical intelligence, and verification.</h2>
+      <p class="section-copy">
+        A selection of recent and representative works across language reasoning, optimization modeling, and
+        mathematically grounded problem solving.
+      </p>
+    </div>
 
-<strong><font style = "color:#1f57b8">CARE What Fails: Contrastive Anchored-REflection for Verifiable Multimodal</font></strong><br />
-Yongxin Wang, <strong>Zhicheng Yang</strong>, Meng Cao, Mingfei Han, Haokun Lin, Yingying Zhu, Xiaojun Chang, Xiaodan Liang<br />
-IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2026) <br />
-[[Paper]](https://arxiv.org/abs/2512.19554)  <br /> 
+    <div class="paper-grid">
+      <article class="paper-card paper-card--featured">
+        <p class="paper-card__label">ICLR 2025</p>
+        <h3>OptiBench Meets ReSocratic: Measure and Improve LLMs for Optimization Modeling</h3>
+        <p class="paper-card__authors">
+          <strong>Zhicheng Yang</strong>, Yiwei Wang, Yinya Huang, Zhijiang Guo, Wei Shi, Xiongwei Han, Liang Feng,
+          Linqi Song, Xiaodan Liang, Jing Tang
+        </p>
+        <p class="paper-card__venue">The Thirteenth International Conference on Learning Representations</p>
+        <div class="paper-card__links">
+          <a href="https://arxiv.org/abs/2407.09887">Paper</a>
+          <a href="https://github.com/yangzhch6/ReSocratic">Code</a>
+        </div>
+      </article>
 
-<strong><font style = "color:#1f57b8">AlignedCoT: Prompting Large Language Models via Native-Speaking Demonstrations</font></strong><br />
-<strong>Zhicheng Yang</strong>, Yinya Huang, Jing Xiong, Liang Feng, Xiaodan Liang, Yiwei Wang, Jing Tang <br />
-The 2024 Conference on Empirical Methods in Natural Language Processing. (Findings of EMNLP 2024) <br />
-[[Paper]](https://aclanthology.org/2024.findings-emnlp.163/) [[Code]](https://github.com/yangzhch6/AlignedCoT) <br /> 
+      <article class="paper-card">
+        <p class="paper-card__label">CVPR 2026</p>
+        <h3>CARE What Fails: Contrastive Anchored-REflection for Verifiable Multimodal Reasoning</h3>
+        <p class="paper-card__authors">
+          Yongxin Wang, <strong>Zhicheng Yang</strong>, Meng Cao, Mingfei Han, Haokun Lin, Yingying Zhu, Xiaojun Chang,
+          Xiaodan Liang
+        </p>
+        <p class="paper-card__venue">IEEE Conference on Computer Vision and Pattern Recognition</p>
+        <div class="paper-card__links">
+          <a href="https://arxiv.org/abs/2512.19554">Paper</a>
+        </div>
+      </article>
 
-<strong><font style = "color:#1f57b8">LogicSolver: Towards Interpretable Math Word Problem Solving with Logical Prompt-enhanced Learning</font></strong><br />
-<strong>Zhicheng Yang<sup>*</sup></strong>, Jinghui Qin<sup>*</sup>, Jiaqi Chen, Liang Lin, Xiaodan Liang<br />
-The 2022 Conference on Empirical Methods in Natural Language Processing. (Findings of EMNLP 2022) <br />
-[[Paper]](https://anthology.aclweb.org/2022.findings-emnlp.1/) [[Code]](https://github.com/yangzhch6/InterMWP)<br />
+      <article class="paper-card">
+        <p class="paper-card__label">NeurIPS 2024</p>
+        <h3>Proving Theorems Recursively</h3>
+        <p class="paper-card__authors">
+          Haiming Wang, Huajian Xin, Zhengying Liu, Wenda Li, Yinya Huang, Jianqiao Lu, <strong>Zhicheng Yang</strong>,
+          Jing Tang, Jian Yin, Zhenguo Li, Xiaodan Liang
+        </p>
+        <p class="paper-card__venue">Advances in Neural Information Processing Systems 37</p>
+        <div class="paper-card__links">
+          <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/9de7a49945898da86e062e7029baa284-Abstract-Conference.html">Paper</a>
+        </div>
+      </article>
 
-<strong><font style = "color:#1f57b8">Unbiased Math Word Problems Benchmark for Mitigating Solving Bias</font></strong><br />
-<strong>Zhicheng Yang</strong>, Jinghui Qin, Jiaqi Chen, Xiaodan Liang<br />
-Annual Conference of the North American Chapter of the Association for Computational Linguistics, 2022. (Findings of NAACL 2022)<br />
-[[Paper]](https://aclanthology.org/2022.findings-naacl.104/) [[Code]](https://github.com/yangzhch6/UnbiasedMWP) <br />
+      <article class="paper-card">
+        <p class="paper-card__label">Findings of EMNLP 2024</p>
+        <h3>AlignedCoT: Prompting Large Language Models via Native-Speaking Demonstrations</h3>
+        <p class="paper-card__authors">
+          <strong>Zhicheng Yang</strong>, Yinya Huang, Jing Xiong, Liang Feng, Xiaodan Liang, Yiwei Wang, Jing Tang
+        </p>
+        <p class="paper-card__venue">Conference on Empirical Methods in Natural Language Processing</p>
+        <div class="paper-card__links">
+          <a href="https://aclanthology.org/2024.findings-emnlp.163/">Paper</a>
+          <a href="https://github.com/yangzhch6/AlignedCoT">Code</a>
+        </div>
+      </article>
 
-<strong><font style = "color:#1f57b8">CLOMO: Counterfactual Logical Modification with Large Language Models</font></strong><br />
-Yinya Huang, Ruixin Hong, Hongming Zhang, Wei Shao, <strong>Zhicheng Yang</strong>, Dong Yu, Changshui Zhang, Xiaodan Liang, Linqi Song <br />
-Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics. (ACL 2024) <br />
-[[Paper]](https://arxiv.org/abs/2311.17438) <br />
+      <article class="paper-card">
+        <p class="paper-card__label">ACL 2024</p>
+        <h3>CLOMO: Counterfactual Logical Modification with Large Language Models</h3>
+        <p class="paper-card__authors">
+          Yinya Huang, Ruixin Hong, Hongming Zhang, Wei Shao, <strong>Zhicheng Yang</strong>, Dong Yu, Changshui Zhang,
+          Xiaodan Liang, Linqi Song
+        </p>
+        <p class="paper-card__venue">Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics</p>
+        <div class="paper-card__links">
+          <a href="https://aclanthology.org/2024.acl-long.593/">Paper</a>
+        </div>
+      </article>
 
-<strong><font style = "color:#1f57b8">DQ-LoRe: Dual Queries with Low Rank Approximation Re-ranking for In-Context Learning</font></strong><br />
-Jing Xiong, Zixuan Li, Chuanyang Zheng, Zhijiang Guo, Yichun Yin, Enze Xie, <strong>Zhicheng Yang</strong>, Qingxing Cao, Haiming Wang, Xiongwei Han, Jing Tang, Chengming Li, Xiaodan Liang <br />
-12th International Conference on Learning Representations, 2024. (ICLR 2024)<br />
-[[Paper]](https://arxiv.org/abs/2310.02954) <br />
+      <article class="paper-card">
+        <p class="paper-card__label">Findings of NAACL 2024</p>
+        <h3>ATG: Benchmarking Automated Theorem Generation for Generative Language Models</h3>
+        <p class="paper-card__authors">
+          Xiaohan Lin, Qingxing Cao, Yinya Huang, <strong>Zhicheng Yang</strong>, Zhengying Liu, Zhenguo Li,
+          Xiaodan Liang
+        </p>
+        <p class="paper-card__venue">Findings of the Association for Computational Linguistics: NAACL 2024</p>
+        <div class="paper-card__links">
+          <a href="https://aclanthology.org/2024.findings-naacl.279/">Paper</a>
+        </div>
+      </article>
 
-<strong><font style = "color:#1f57b8">ATG: Benchmarking Automated Theorem Generation for Generative Language Models</font></strong><br />
-Xiaohan Lin, Qingxing Cao, Yinya Huang, **Zhicheng Yang**, Zhengying Liu, Zhenguo Li, Xiaodan Liang <br />
-Annual Conference of the North American Chapter of the Association for Computational Linguistics, 2024. (Findings of NAACL 2024)<br />
-[[Paper]](https://openreview.net/forum?id=H0RzzhAxTv&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FNAACL%2F2024%2FConference%2FAuthors%23your-submissions)) <br />
+      <article class="paper-card">
+        <p class="paper-card__label">Findings of EMNLP 2022</p>
+        <h3>LogicSolver: Towards Interpretable Math Word Problem Solving with Logical Prompt-Enhanced Learning</h3>
+        <p class="paper-card__authors">
+          <strong>Zhicheng Yang*</strong>, Jinghui Qin*, Jiaqi Chen, Liang Lin, Xiaodan Liang
+        </p>
+        <p class="paper-card__venue">Conference on Empirical Methods in Natural Language Processing</p>
+        <div class="paper-card__links">
+          <a href="https://anthology.aclweb.org/2022.findings-emnlp.1/">Paper</a>
+          <a href="https://github.com/yangzhch6/InterMWP">Code</a>
+        </div>
+      </article>
 
-<strong><font style = "color:#1f57b8">Template-based Contrastive Distillation Pre-training for Math Word Problem Solving</font></strong><br />
-Jinghui Qin*, <strong>Zhicheng Yang*</strong>, Jiaqi Chen, Xiaodan Liang and Liang Lin<br />
-IEEE Transactions on Neural Networks and Learning Systems, 2023. (TNNLS) <br />
-[[Paper]](https://ieeexplore.ieee.org/document/10113691) <br />
+      <article class="paper-card">
+        <p class="paper-card__label">Findings of NAACL 2022</p>
+        <h3>Unbiased Math Word Problems Benchmark for Mitigating Solving Bias</h3>
+        <p class="paper-card__authors">
+          <strong>Zhicheng Yang</strong>, Jinghui Qin, Jiaqi Chen, Xiaodan Liang
+        </p>
+        <p class="paper-card__venue">Annual Conference of the North American Chapter of the ACL</p>
+        <div class="paper-card__links">
+          <a href="https://aclanthology.org/2022.findings-naacl.104/">Paper</a>
+          <a href="https://github.com/yangzhch6/UnbiasedMWP">Code</a>
+        </div>
+      </article>
 
-(* denotes co-first authors) <br />
+      <article class="paper-card">
+        <p class="paper-card__label">TNNLS 2023</p>
+        <h3>Template-based Contrastive Distillation Pre-training for Math Word Problem Solving</h3>
+        <p class="paper-card__authors">
+          Jinghui Qin*, <strong>Zhicheng Yang*</strong>, Jiaqi Chen, Xiaodan Liang, Liang Lin
+        </p>
+        <p class="paper-card__venue">IEEE Transactions on Neural Networks and Learning Systems</p>
+        <div class="paper-card__links">
+          <a href="https://ieeexplore.ieee.org/document/10113691">Paper</a>
+        </div>
+      </article>
+    </div>
+  </section>
 
-
-Education
-===
-* 2020 --- 2023: **Master** in Pattern Recognition and Intelligent Systems, Sun Yat-sen University (Shenzhen)
-* 2016 --- 2020: **B.Sc.** in Computer Science and Technology, Sun Yat-sen University (Panyu)
-
-
-Honors and Awards
-===
-* National First Prize, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM), China
-* First Prize Scholarship, Sun Yat-sen University
-
-Experience
-===
-* <div>LLM Research Intern, ByteDance-Seed</div> 
-* <div>LLM Research Intern, Huawei Noah's Ark</div> 
-* <div>Recommender System Intern, ByteDance-Data-Douyin</div> 
-
----
-<script>
-document.write("Last modifid at: "+document.lastModified+"" )
-</script>
-
-<a href="https://info.flagcounter.com/kdvh"><img src="https://s11.flagcounter.com/map/kdvh/size_s/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
+</div>
