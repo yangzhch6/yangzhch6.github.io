@@ -21,6 +21,10 @@ redirect_from:
         <strong>expert-level mathematical reasoning</strong>, <strong>verification</strong>, and
         <strong>agentic reasoning</strong>.
       </p>
+      <p class="home-hero__detail">
+        I am particularly interested in building reasoning systems that can plan, critique, and verify long-horizon
+        solutions with stronger reliability, efficiency, and multi-step problem-solving ability.
+      </p>
       <div class="home-actions">
         <a class="home-button home-button--primary" href="#home-selected-papers">View Selected Papers</a>
         <a class="home-button home-button--secondary" href="mailto:yangzhch6@gmail.com">Get in Touch</a>
@@ -50,36 +54,12 @@ redirect_from:
       </div>
 
     </div>
-  </section>
-
-  <section class="home-section home-section--split">
-    <div class="home-column">
-      <div class="section-heading">
-        <p class="section-kicker">Research Interests</p>
-        <h2>Reasoning-centric research across LLMs, verification, and agentic systems.</h2>
+    <div id="home-news" class="home-hero__news home-panel">
+      <div class="home-hero__news-heading">
+        <p class="home-panel__label">News</p>
+        <h2 class="home-panel__title">Recent updates.</h2>
       </div>
-      <div class="topic-list topic-list--wide">
-        <span class="topic-pill">Reasoning with Large Language Models</span>
-        <span class="topic-pill">Solve &amp; Verify</span>
-        <span class="topic-pill">Reasoning Data Synthesis</span>
-        <span class="topic-pill">Test-Time Scaling</span>
-        <span class="topic-pill">Agentic Reasoning</span>
-        <span class="topic-pill">Mathematical Reasoning</span>
-      </div>
-      <p class="section-copy">
-        My research centers on strong reasoning in large language models, including solve-and-verify methods,
-        reasoning data synthesis, test-time scaling, and agentic reasoning. I am particularly interested in pushing
-        LLMs toward stronger multi-step problem solving, more capable reasoning behaviors, and more effective
-        reasoning-oriented systems.
-      </p>
-    </div>
-
-    <div id="home-news" class="home-column">
-      <div class="section-heading">
-        <p class="section-kicker">News</p>
-        <h2>Recent updates.</h2>
-      </div>
-      <div class="timeline">
+      <div class="timeline timeline--compact">
         <div class="timeline-item">
           <span class="timeline-item__date">Sep 2025</span>
           <p>Two papers were accepted to EMNLP 2025.</p>

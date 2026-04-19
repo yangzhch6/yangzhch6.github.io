@@ -32,19 +32,22 @@ assert "ICML, NeurIPS, ICLR, ACL, EMNLP, NAACL, and TNNLS" in about, "Reviewer s
 assert "One paper was accepted to Findings of EMNLP 2024." not in about, "Outdated EMNLP 2024 news item should be removed from homepage source."
 assert "My recent work studies how to make LLM reasoning more reliable, efficient, and verifiable." not in about_compact, "Old hero lead sentence should be removed from homepage source."
 assert "My recent work focuses on advanced <strong>expert-level mathematical reasoning</strong>, <strong>verification</strong>, and <strong>agentic reasoning</strong>." in about_compact, "Updated hero lead sentence is missing from homepage source."
+assert "I am particularly interested in building reasoning systems that can plan, critique, and verify long-horizon solutions with stronger reliability, efficiency, and multi-step problem-solving ability." in about_compact, "Expanded short bio sentence is missing from homepage source."
 assert "Current directions in efficient and verifiable LLM reasoning." in about_compact, "Preprints heading should use normal spacing in homepage source."
 assert "Reliable, data-efficient, and interpretable reasoning with LLMs." not in about, "Old research interests heading should be removed from homepage source."
-assert "Reasoning-centric research across LLMs, verification, and agentic systems." in about, "Updated research interests heading is missing from homepage source."
-assert "Agentic Reasoning" in about, "Agentic reasoning should appear in homepage source."
+assert "Research Interests" not in about, "Research interests section should be removed from homepage source."
+assert "agentic reasoning" in about_compact, "Agentic reasoning should appear in homepage source."
 assert 'class="paper-card__venue"' in about, "Homepage papers should keep venue lines on the shared paper-card__venue style hook."
+assert 'class="home-hero__news home-panel"' in about, "News should move into the hero rail in homepage source."
+assert 'class="timeline timeline--compact"' in about, "Homepage source should use the compact news timeline."
 
 selected_idx = about.index('id="home-selected-papers"')
 background_idx = about.index("Academic Background")
 preprints_idx = about.index('id="home-preprints"')
-research_idx = about.index("Research Interests")
 news_idx = about.index('id="home-news"')
-assert research_idx < preprints_idx, "Research interests should appear before preprints in homepage source."
+hero_end_idx = about.index("</section>", about.index('<section class="home-hero">'))
 assert news_idx < preprints_idx, "News should appear before preprints in homepage source."
+assert news_idx < hero_end_idx, "News should sit inside the homepage hero in homepage source."
 assert background_idx > preprints_idx, "Academic background should appear after preprints in homepage source."
 assert background_idx > selected_idx, "Academic background should appear after selected papers in homepage source."
 
@@ -57,18 +60,21 @@ if preview is not None:
     assert "One paper was accepted to Findings of EMNLP 2024." not in preview, "Outdated EMNLP 2024 news item should be removed from preview."
     assert "My recent work studies how to make LLM reasoning more reliable, efficient, and verifiable." not in preview_compact, "Old hero lead sentence should be removed from preview."
     assert "My recent work focuses on advanced <strong>expert-level mathematical reasoning</strong>, <strong>verification</strong>, and <strong>agentic reasoning</strong>." in preview_compact, "Updated hero lead sentence is missing from preview."
+    assert "I am particularly interested in building reasoning systems that can plan, critique, and verify long-horizon solutions with stronger reliability, efficiency, and multi-step problem-solving ability." in preview_compact, "Expanded short bio sentence is missing from preview."
     assert "Current directions in efficient and verifiable LLM reasoning." in preview_compact, "Preprints heading should use normal spacing in preview."
     assert "Reliable, data-efficient, and interpretable reasoning with LLMs." not in preview, "Old research interests heading should be removed from preview."
-    assert "Reasoning-centric research across LLMs, verification, and agentic systems." in preview, "Updated research interests heading is missing from preview."
-    assert "Agentic Reasoning" in preview, "Agentic reasoning should appear in preview."
+    assert "Research Interests" not in preview, "Research interests section should be removed from preview."
+    assert "agentic reasoning" in preview_compact, "Agentic reasoning should appear in preview."
+    assert 'class="home-hero__news home-panel"' in preview, "News should move into the hero rail in preview."
+    assert 'class="timeline timeline--compact"' in preview, "Preview should use the compact news timeline."
 
     preview_selected_idx = preview.index('id="home-selected-papers"')
     preview_background_idx = preview.index("Academic Background")
     preview_preprints_idx = preview.index('id="home-preprints"')
-    preview_research_idx = preview.index("Research Interests")
     preview_news_idx = preview.index('id="home-news"')
-    assert preview_research_idx < preview_preprints_idx, "Research interests should appear before preprints in preview."
+    preview_hero_end_idx = preview.index("</section>", preview.index('<section class="home-hero">'))
     assert preview_news_idx < preview_preprints_idx, "News should appear before preprints in preview."
+    assert preview_news_idx < preview_hero_end_idx, "News should sit inside the homepage hero in preview."
     assert preview_background_idx > preview_preprints_idx, "Academic background should appear after preprints in preview."
     assert preview_background_idx > preview_selected_idx, "Academic background should appear after selected papers in preview."
 
@@ -85,14 +91,18 @@ assert "margin: 1.05rem 0 0;" in scss, "Hero subtitle should sit lower below the
 assert "align-items: start;" in scss, "Paper grid should avoid stretched equal-height cards."
 assert "font-style: italic;" in scss, "Paper venues should render in italics."
 assert "gap: 0.12rem;" in scss, "Paper metadata stack should remove excess internal spacing."
-assert "grid-template-columns: 212px minmax(0, 1.52fr);" in scss, "Hero desktop columns should place the portrait column on the left."
-assert "gap: 1.35rem;" in scss, "Hero layout gap should be tightened."
+assert "grid-template-columns: 212px minmax(0, 1.18fr);" in scss, "Hero medium layout should keep the portrait tight to the bio column."
+assert "grid-template-columns: 212px minmax(0, 1.18fr) minmax(250px, 0.92fr);" in scss, "Hero large layout should reserve a right rail for compact news."
+assert "gap: 1.2rem;" in scss, "Hero layout gap should be tightened further."
 assert "max-width: 212px;" in scss, "Portrait column should be narrower."
 assert "justify-self: start;" in scss, "Portrait card should sit closer to the bio column."
 assert ".home-hero__intro {" in scss, "Hero intro block should have an explicit desktop order override."
 assert "order: 2;" in scss, "Hero intro block should move to the right column on desktop."
 assert ".home-hero__aside {" in scss, "Hero portrait block should have an explicit desktop order override."
 assert "order: 1;" in scss, "Hero portrait block should move to the left column on desktop."
+assert ".home-hero__news {" in scss, "Hero news rail should have dedicated styles."
+assert "order: 3;" in scss, "Hero news rail should move to the rightmost desktop column."
+assert "max-width: 320px;" in scss, "Hero news rail should stay visually compact."
 assert ".portrait-card__label {" in scss, "Portrait label override should be present."
 assert "font-size: 0.72rem;" in scss, "Research Themes label should be smaller."
 assert "margin: 0 0 0.3rem;" in scss, "Research Themes label should sit closer to the topic pills."
@@ -107,6 +117,11 @@ assert "font-size: 1.05rem;" in scss, "Paper titles should be reduced further fo
 assert "text-wrap: balance;" in scss, "Section titles should use balanced wrapping."
 assert "#home-preprints .section-heading {" in scss, "Preprints heading should have a dedicated width override."
 assert "max-width: 980px;" in scss, "Preprints heading should have substantially more horizontal room."
+assert ".timeline--compact {" in scss, "Compact timeline hook should be present."
+assert "gap: 0.78rem;" in scss, "Compact news timeline should tighten vertical rhythm."
+assert ".timeline--compact .timeline-item {" in scss, "Compact news items should have their own override."
+assert "padding: 0.8rem 0.9rem;" in scss, "Compact news items should use smaller padding."
+assert ".home-section--split" not in scss, "Old split-section homepage layout styles should be removed."
 
 for title in (
     "Proving Theorems Recursively",

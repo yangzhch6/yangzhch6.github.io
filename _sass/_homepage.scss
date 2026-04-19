@@ -75,17 +75,23 @@
 .home-hero {
   display: grid;
   gap: 2rem;
-  align-items: center;
+  align-items: start;
   padding: 2.25rem 0 1rem;
 
   @include breakpoint($medium) {
-    grid-template-columns: 212px minmax(0, 1.52fr);
-    gap: 1.35rem;
+    grid-template-columns: 212px minmax(0, 1.18fr);
+    gap: 1.2rem;
     padding-top: 3rem;
+  }
+
+  @include breakpoint($large) {
+    grid-template-columns: 212px minmax(0, 1.18fr) minmax(250px, 0.92fr);
   }
 }
 
 .home-hero__intro {
+  min-width: 0;
+
   @include breakpoint($medium) {
     order: 2;
   }
@@ -109,11 +115,19 @@
 }
 
 .home-hero__lead {
-  max-width: 680px;
+  max-width: 100%;
   margin: 1.5rem 0 0;
   color: var(--home-ink-soft);
   font-size: 1.12rem;
   line-height: 1.85;
+}
+
+.home-hero__detail {
+  max-width: 720px;
+  margin: 0.95rem 0 0;
+  color: var(--home-ink-soft);
+  font-size: 1rem;
+  line-height: 1.78;
 }
 
 .home-actions {
@@ -183,6 +197,22 @@
   }
 }
 
+.home-hero__news {
+  min-width: 0;
+
+  @include breakpoint($medium) {
+    order: 3;
+    grid-column: 1 / -1;
+  }
+
+  @include breakpoint($large) {
+    grid-column: auto;
+    max-width: 320px;
+    width: 100%;
+    justify-self: end;
+  }
+}
+
 .portrait-card,
 .home-panel,
 .paper-card,
@@ -248,6 +278,18 @@
   margin: 0;
   font-size: 1.05rem;
   font-weight: 700;
+}
+
+.home-panel__title {
+  margin: 0;
+  font-size: 1.28rem;
+  line-height: 1.15;
+  text-wrap: balance;
+}
+
+.home-hero__news-heading {
+  display: grid;
+  gap: 0.32rem;
 }
 
 .compact-list,
@@ -367,20 +409,6 @@
   }
 }
 
-.home-section--split {
-  display: grid;
-  gap: 2rem;
-
-  @include breakpoint($medium) {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    align-items: start;
-  }
-}
-
-.home-column {
-  min-width: 0;
-}
-
 .timeline {
   display: grid;
   gap: 1rem;
@@ -405,6 +433,27 @@
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.timeline--compact {
+  gap: 0.78rem;
+}
+
+.timeline--compact .timeline-item {
+  padding: 0.8rem 0.9rem;
+  border-left-width: 2px;
+  border-radius: 0 16px 16px 0;
+
+  p {
+    margin-top: 0.25rem;
+    font-size: 0.94rem;
+    line-height: 1.58;
+  }
+}
+
+.timeline--compact .timeline-item__date {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
 }
 
 .credential-grid {
