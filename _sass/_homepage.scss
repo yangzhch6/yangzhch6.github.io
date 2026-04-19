@@ -51,7 +51,7 @@
 }
 
 #home-preprints .section-heading {
-  max-width: 860px;
+  max-width: 980px;
 }
 
 .section-kicker {
@@ -79,9 +79,15 @@
   padding: 2.25rem 0 1rem;
 
   @include breakpoint($medium) {
-    grid-template-columns: minmax(0, 1.52fr) 212px;
+    grid-template-columns: 212px minmax(0, 1.52fr);
     gap: 1.35rem;
     padding-top: 3rem;
+  }
+}
+
+.home-hero__intro {
+  @include breakpoint($medium) {
+    order: 2;
   }
 }
 
@@ -171,6 +177,10 @@
   max-width: 212px;
   width: 100%;
   justify-self: start;
+
+  @include breakpoint($medium) {
+    order: 1;
+  }
 }
 
 .portrait-card,

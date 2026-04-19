@@ -83,10 +83,14 @@ assert "margin: 1.05rem 0 0;" in scss, "Hero subtitle should sit lower below the
 assert "align-items: start;" in scss, "Paper grid should avoid stretched equal-height cards."
 assert "font-style: italic;" in scss, "Paper venues should render in italics."
 assert "gap: 0.12rem;" in scss, "Paper metadata stack should remove excess internal spacing."
-assert "grid-template-columns: minmax(0, 1.52fr) 212px;" in scss, "Hero desktop columns should be tightened."
+assert "grid-template-columns: 212px minmax(0, 1.52fr);" in scss, "Hero desktop columns should place the portrait column on the left."
 assert "gap: 1.35rem;" in scss, "Hero layout gap should be tightened."
 assert "max-width: 212px;" in scss, "Portrait column should be narrower."
 assert "justify-self: start;" in scss, "Portrait card should sit closer to the bio column."
+assert ".home-hero__intro {" in scss, "Hero intro block should have an explicit desktop order override."
+assert "order: 2;" in scss, "Hero intro block should move to the right column on desktop."
+assert ".home-hero__aside {" in scss, "Hero portrait block should have an explicit desktop order override."
+assert "order: 1;" in scss, "Hero portrait block should move to the left column on desktop."
 assert ".portrait-card__label {" in scss, "Portrait label override should be present."
 assert "font-size: 0.72rem;" in scss, "Research Themes label should be smaller."
 assert "margin: 0 0 0.3rem;" in scss, "Research Themes label should sit closer to the topic pills."
@@ -100,7 +104,7 @@ assert "padding: 0.82rem 0.9rem 0.88rem;" in scss, "Paper cards should use tight
 assert "font-size: 1.05rem;" in scss, "Paper titles should be reduced further for a denser layout."
 assert "text-wrap: balance;" in scss, "Section titles should use balanced wrapping."
 assert "#home-preprints .section-heading {" in scss, "Preprints heading should have a dedicated width override."
-assert "max-width: 860px;" in scss, "Preprints heading should have more horizontal room."
+assert "max-width: 980px;" in scss, "Preprints heading should have substantially more horizontal room."
 
 for title in (
     "Proving Theorems Recursively",
