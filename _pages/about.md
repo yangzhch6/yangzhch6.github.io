@@ -65,7 +65,7 @@ redirect_from:
           alt="Portrait of Zhicheng Yang"
         >
         <div class="portrait-card__body">
-          <p class="portrait-card__label">Research Themes</p>
+          <p class="portrait-card__label">Research Interests</p>
           <div class="topic-list">
             <span class="topic-pill">Solve &amp; Verify</span>
             <span class="topic-pill">CoT Synthesis</span>
@@ -81,7 +81,7 @@ redirect_from:
     <div class="home-column">
       <div class="section-heading">
         <p class="section-kicker">Academic Background</p>
-        <h2>Training, experience, and academic distinctions.</h2>
+        <h2>Background</h2>
       </div>
 
       <div class="credential-grid credential-grid--compact">
@@ -123,7 +123,7 @@ redirect_from:
     <div id="home-news" class="home-column">
       <div class="section-heading">
         <p class="section-kicker">News</p>
-        <h2>Recent updates.</h2>
+        <h2>News</h2>
       </div>
       <div class="timeline timeline--compact">
         <div class="timeline-item">
