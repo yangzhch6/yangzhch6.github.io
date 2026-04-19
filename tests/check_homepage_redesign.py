@@ -30,9 +30,11 @@ assert "ICML, NeurIPS, ICLR, ACL, EMNLP, NAACL, and TNNLS" in about, "Reviewer s
 assert "One paper was accepted to Findings of EMNLP 2024." not in about, "Outdated EMNLP 2024 news item should be removed from homepage source."
 assert "My recent work studies how to make LLM reasoning more reliable, efficient, and verifiable." not in about_compact, "Old hero lead sentence should be removed from homepage source."
 assert "My recent work focuses on advanced <strong>expert-level mathematical reasoning</strong>, <strong>verification</strong>, and <strong>agentic reasoning</strong>." in about_compact, "Updated hero lead sentence is missing from homepage source."
+assert "Current directions in efficient and verifiable LLM&nbsp;reasoning." in about_compact, "Preprints heading should keep 'LLM reasoning' on one line in homepage source."
 assert "Reliable, data-efficient, and interpretable reasoning with LLMs." not in about, "Old research interests heading should be removed from homepage source."
 assert "Reasoning-centric research across LLMs, verification, and agentic systems." in about, "Updated research interests heading is missing from homepage source."
 assert "Agentic Reasoning" in about, "Agentic reasoning should appear in homepage source."
+assert 'class="paper-card__venue"' in about, "Homepage papers should keep venue lines on the shared paper-card__venue style hook."
 
 selected_idx = about.index('id="home-selected-papers"')
 background_idx = about.index("Academic Background")
@@ -53,6 +55,7 @@ if preview is not None:
     assert "One paper was accepted to Findings of EMNLP 2024." not in preview, "Outdated EMNLP 2024 news item should be removed from preview."
     assert "My recent work studies how to make LLM reasoning more reliable, efficient, and verifiable." not in preview_compact, "Old hero lead sentence should be removed from preview."
     assert "My recent work focuses on advanced <strong>expert-level mathematical reasoning</strong>, <strong>verification</strong>, and <strong>agentic reasoning</strong>." in preview_compact, "Updated hero lead sentence is missing from preview."
+    assert "Current directions in efficient and verifiable LLM&nbsp;reasoning." in preview_compact, "Preprints heading should keep 'LLM reasoning' on one line in preview."
     assert "Reliable, data-efficient, and interpretable reasoning with LLMs." not in preview, "Old research interests heading should be removed from preview."
     assert "Reasoning-centric research across LLMs, verification, and agentic systems." in preview, "Updated research interests heading is missing from preview."
     assert "Agentic Reasoning" in preview, "Agentic reasoning should appear in preview."
