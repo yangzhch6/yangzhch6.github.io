@@ -10,6 +10,7 @@ def read(relpath: str) -> str:
 
 about = read("_pages/about.md")
 main_scss = read("assets/css/main.scss")
+head_include = read("_includes/head.html")
 preview_file = ROOT / "preview" / "homepage-preview.html"
 preview = preview_file.read_text(encoding="utf-8") if preview_file.exists() else None
 about_compact = " ".join(about.split())
@@ -22,6 +23,7 @@ assert 'id="home-selected-papers"' in about, "Selected papers section is missing
 assert 'id="home-preprints"' in about, "Preprints section is missing."
 assert 'id="home-news"' in about, "News section is missing."
 assert '@import "homepage";' in main_scss, "Homepage stylesheet is not imported."
+assert 'assets/css/main.css?v=' in head_include, "Main stylesheet link should include a cache-busting version parameter."
 assert "Based In" not in about, "Based In panel should be removed from homepage source."
 assert "Recent Highlights" not in about, "Recent highlights panel should be removed from homepage source."
 assert "Professional Service" in about, "Professional service section is missing from homepage source."
