@@ -24,9 +24,36 @@ redirect_from:
         <a class="home-button home-button--secondary" href="mailto:yangzhch6@gmail.com">Get in Touch</a>
       </div>
       <div class="home-link-list">
-        <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=ZvXicO8AAAAJ">Google Scholar</a>
-        <a href="https://github.com/yangzhch6">GitHub</a>
-        <a href="mailto:yangzhch6@gmail.com">Email</a>
+        <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=ZvXicO8AAAAJ">
+          <span class="home-link-list__label">
+            <span class="home-link-list__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M12 3 2 9l10 6 8-4.8V17h2V9L12 3Zm-5.2 9.8V16c0 1.8 2.3 3.2 5.2 3.2s5.2-1.4 5.2-3.2v-3.2L12 16l-5.2-3.2Z" />
+              </svg>
+            </span>
+            Google Scholar
+          </span>
+        </a>
+        <a href="https://github.com/yangzhch6">
+          <span class="home-link-list__label">
+            <span class="home-link-list__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.2.8-.6v-2.1c-3.3.7-4-1.4-4-1.4-.6-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 .1 2.1 1.5 2.7 1.5.9 0 1.6-.3 2-.8.1-.8.4-1.3.7-1.6-2.6-.3-5.4-1.3-5.4-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.4 5.9.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6A12 12 0 0 0 12 .5Z" />
+              </svg>
+            </span>
+            GitHub
+          </span>
+        </a>
+        <a href="mailto:yangzhch6@gmail.com">
+          <span class="home-link-list__label">
+            <span class="home-link-list__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M3 5.5A2.5 2.5 0 0 1 5.5 3h13A2.5 2.5 0 0 1 21 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 18.5v-13Zm2 1v.5l7 5.2 7-5.2v-.5a.5.5 0 0 0-.5-.5h-13a.5.5 0 0 0-.5.5Zm14 3-6.4 4.7a1 1 0 0 1-1.2 0L5 9.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9Z" />
+              </svg>
+            </span>
+            Email
+          </span>
+        </a>
       </div>
     </div>
 
@@ -192,9 +219,6 @@ redirect_from:
     <div class="section-heading">
       <p class="section-kicker">Selected Papers</p>
       <h2>Representative publications in reasoning, mathematical intelligence, and verification.</h2>
-      <p class="section-copy">
-        A selection of recent and representative works across language reasoning, optimization modeling, and mathematically grounded problem solving.
-      </p>
     </div>
 
     <div class="paper-grid">
