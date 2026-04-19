@@ -408,7 +408,7 @@
 }
 
 .home-section--top-grid .section-heading {
-  margin-bottom: 0.95rem;
+  margin-bottom: 0.72rem;
 }
 
 .home-column {
@@ -472,7 +472,7 @@
 }
 
 .credential-grid--compact {
-  gap: 0.72rem;
+  gap: 0.56rem;
 
   @include breakpoint($medium) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -480,12 +480,17 @@
 }
 
 .credential-grid--compact .credential-card {
-  padding: 0.96rem;
+  padding: 0.82rem;
 
   h3 {
-    margin-bottom: 0.62rem;
+    margin-bottom: 0.46rem;
     font-size: 1.08rem;
   }
+}
+
+.credential-grid--compact .detail-list li {
+  margin-bottom: 0.24rem;
+  line-height: 1.55;
 }
 
 .credential-card {

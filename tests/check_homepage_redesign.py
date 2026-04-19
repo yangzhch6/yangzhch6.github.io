@@ -149,10 +149,13 @@ assert ".timeline--compact .timeline-item {" in scss, "Compact news items should
 assert "padding: 0.8rem 0.9rem;" in scss, "Compact news items should use smaller padding."
 assert ".credential-grid--compact {" in scss, "Compact academic background grid styles should be present."
 assert ".home-section--top-grid .section-heading {" in scss, "Academic background top-grid section should tighten heading spacing."
-assert "margin-bottom: 0.95rem;" in scss, "Academic background heading spacing should be reduced."
-assert "gap: 0.72rem;" in scss, "Compact academic background grid should use tighter block spacing."
-assert "padding: 0.96rem;" in scss, "Compact academic background cards should use reduced padding."
-assert "margin-bottom: 0.62rem;" in scss, "Compact academic background card titles should sit closer to their lists."
+assert "margin-bottom: 0.72rem;" in scss, "Academic background heading spacing should be reduced further."
+assert "gap: 0.56rem;" in scss, "Compact academic background grid should use denser block spacing."
+assert "padding: 0.82rem;" in scss, "Compact academic background cards should use tighter padding."
+assert "margin-bottom: 0.46rem;" in scss, "Compact academic background card titles should sit closer to their lists."
+assert ".credential-grid--compact .detail-list li {" in scss, "Compact academic background lists should have dedicated spacing rules."
+assert "margin-bottom: 0.24rem;" in scss, "Compact academic background list items should have tighter spacing."
+assert "line-height: 1.55;" in scss, "Compact academic background list items should use denser line height."
 
 for title in (
     "Proving Theorems Recursively",
