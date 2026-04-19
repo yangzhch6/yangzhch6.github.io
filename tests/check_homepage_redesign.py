@@ -30,7 +30,7 @@ assert "ICML, NeurIPS, ICLR, ACL, EMNLP, NAACL, and TNNLS" in about, "Reviewer s
 assert "One paper was accepted to Findings of EMNLP 2024." not in about, "Outdated EMNLP 2024 news item should be removed from homepage source."
 assert "My recent work studies how to make LLM reasoning more reliable, efficient, and verifiable." not in about_compact, "Old hero lead sentence should be removed from homepage source."
 assert "My recent work focuses on advanced <strong>expert-level mathematical reasoning</strong>, <strong>verification</strong>, and <strong>agentic reasoning</strong>." in about_compact, "Updated hero lead sentence is missing from homepage source."
-assert "Current directions in efficient and verifiable LLM&nbsp;reasoning." in about_compact, "Preprints heading should keep 'LLM reasoning' on one line in homepage source."
+assert "Current directions in efficient and verifiable LLM reasoning." in about_compact, "Preprints heading should use normal spacing in homepage source."
 assert "Reliable, data-efficient, and interpretable reasoning with LLMs." not in about, "Old research interests heading should be removed from homepage source."
 assert "Reasoning-centric research across LLMs, verification, and agentic systems." in about, "Updated research interests heading is missing from homepage source."
 assert "Agentic Reasoning" in about, "Agentic reasoning should appear in homepage source."
@@ -55,7 +55,7 @@ if preview is not None:
     assert "One paper was accepted to Findings of EMNLP 2024." not in preview, "Outdated EMNLP 2024 news item should be removed from preview."
     assert "My recent work studies how to make LLM reasoning more reliable, efficient, and verifiable." not in preview_compact, "Old hero lead sentence should be removed from preview."
     assert "My recent work focuses on advanced <strong>expert-level mathematical reasoning</strong>, <strong>verification</strong>, and <strong>agentic reasoning</strong>." in preview_compact, "Updated hero lead sentence is missing from preview."
-    assert "Current directions in efficient and verifiable LLM&nbsp;reasoning." in preview_compact, "Preprints heading should keep 'LLM reasoning' on one line in preview."
+    assert "Current directions in efficient and verifiable LLM reasoning." in preview_compact, "Preprints heading should use normal spacing in preview."
     assert "Reliable, data-efficient, and interpretable reasoning with LLMs." not in preview, "Old research interests heading should be removed from preview."
     assert "Reasoning-centric research across LLMs, verification, and agentic systems." in preview, "Updated research interests heading is missing from preview."
     assert "Agentic Reasoning" in preview, "Agentic reasoning should appear in preview."
@@ -98,6 +98,9 @@ assert "padding: 0.24rem 0.62rem;" in scss, "Portrait theme pills should use sma
 assert "repeat(3, minmax(0, 1fr))" in scss, "Selected papers should use a denser desktop grid."
 assert "padding: 0.82rem 0.9rem 0.88rem;" in scss, "Paper cards should use tighter padding."
 assert "font-size: 1.05rem;" in scss, "Paper titles should be reduced further for a denser layout."
+assert "text-wrap: balance;" in scss, "Section titles should use balanced wrapping."
+assert "#home-preprints .section-heading {" in scss, "Preprints heading should have a dedicated width override."
+assert "max-width: 860px;" in scss, "Preprints heading should have more horizontal room."
 
 for title in (
     "Proving Theorems Recursively",

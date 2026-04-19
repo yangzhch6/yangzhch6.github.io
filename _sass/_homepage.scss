@@ -46,7 +46,12 @@
     font-size: clamp(1.85rem, 2vw, 2.5rem);
     line-height: 1.15;
     letter-spacing: -0.02em;
+    text-wrap: balance;
   }
+}
+
+#home-preprints .section-heading {
+  max-width: 860px;
 }
 
 .section-kicker {

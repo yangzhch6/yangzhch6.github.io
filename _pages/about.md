@@ -103,7 +103,7 @@ redirect_from:
   <section id="home-preprints" class="home-section">
     <div class="section-heading">
       <p class="section-kicker">Preprints</p>
-      <h2>Current directions in efficient and verifiable LLM&nbsp;reasoning.</h2>
+      <h2>Current directions in efficient and verifiable LLM reasoning.</h2>
     </div>
 
     <div class="paper-grid paper-grid--compact">
