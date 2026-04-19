@@ -68,6 +68,10 @@ scss = homepage_scss.read_text(encoding="utf-8")
 assert ".homepage" in scss, "Homepage styles are missing."
 assert ".home-hero" in scss, "Hero styles are missing."
 assert ".paper-grid" in scss, "Paper grid styles are missing."
+assert "max-width: 260px;" in scss, "Avatar column should be reduced in width."
+assert "repeat(3, minmax(0, 1fr))" in scss, "Selected papers should use a denser desktop grid."
+assert "padding: 1rem 1.05rem 1.05rem;" in scss, "Paper cards should use tighter padding."
+assert "font-size: 1.18rem;" in scss, "Paper titles should be reduced for a denser layout."
 
 for title in (
     "Proving Theorems Recursively",
