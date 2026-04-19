@@ -17,8 +17,8 @@ redirect_from:
       <p class="home-hero__subtitle">PhD Researcher in Large Language Model Reasoning</p>
       <p class="home-hero__lead">
         I work on reasoning-centric large language models, with current interests in solve-and-verify paradigms,
-        reasoning data synthesis, and test-time scaling. My recent work studies how to make LLM reasoning more
-        reliable, efficient, and verifiable.
+        reasoning data synthesis, and test-time scaling. My recent work focuses on advanced, expert-level
+        mathematical reasoning, verification, and agentic reasoning.
       </p>
       <div class="home-actions">
         <a class="home-button home-button--primary" href="#home-selected-papers">View Selected Papers</a>

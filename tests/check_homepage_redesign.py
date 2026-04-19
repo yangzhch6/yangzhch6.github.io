@@ -12,6 +12,8 @@ about = read("_pages/about.md")
 main_scss = read("assets/css/main.scss")
 preview_file = ROOT / "preview" / "homepage-preview.html"
 preview = preview_file.read_text(encoding="utf-8") if preview_file.exists() else None
+about_compact = " ".join(about.split())
+preview_compact = " ".join(preview.split()) if preview is not None else None
 
 assert "layout: splash" in about, "Homepage should use the splash layout."
 assert "author_profile: false" in about, "Homepage should disable the default author sidebar."
@@ -26,6 +28,8 @@ assert "Professional Service" in about, "Professional service section is missing
 assert "Area Chair, ACL Rolling Review (ARR), January 2026" in about, "Area Chair service is missing from homepage source."
 assert "ICML, NeurIPS, ICLR, ACL, EMNLP, NAACL, and TNNLS" in about, "Reviewer service list is missing from homepage source."
 assert "One paper was accepted to Findings of EMNLP 2024." not in about, "Outdated EMNLP 2024 news item should be removed from homepage source."
+assert "My recent work studies how to make LLM reasoning more reliable, efficient, and verifiable." not in about_compact, "Old hero lead sentence should be removed from homepage source."
+assert "My recent work focuses on advanced, expert-level mathematical reasoning, verification, and agentic reasoning." in about_compact, "Updated hero lead sentence is missing from homepage source."
 assert "Reliable, data-efficient, and interpretable reasoning with LLMs." not in about, "Old research interests heading should be removed from homepage source."
 assert "Reasoning-centric research across LLMs, verification, and agentic systems." in about, "Updated research interests heading is missing from homepage source."
 assert "Agentic Reasoning" in about, "Agentic reasoning should appear in homepage source."
@@ -47,6 +51,8 @@ if preview is not None:
     assert "Area Chair, ACL Rolling Review (ARR), January 2026" in preview, "Area Chair service is missing from preview."
     assert "ICML, NeurIPS, ICLR, ACL, EMNLP, NAACL, and TNNLS" in preview, "Reviewer service list is missing from preview."
     assert "One paper was accepted to Findings of EMNLP 2024." not in preview, "Outdated EMNLP 2024 news item should be removed from preview."
+    assert "My recent work studies how to make LLM reasoning more reliable, efficient, and verifiable." not in preview_compact, "Old hero lead sentence should be removed from preview."
+    assert "My recent work focuses on advanced, expert-level mathematical reasoning, verification, and agentic reasoning." in preview_compact, "Updated hero lead sentence is missing from preview."
     assert "Reliable, data-efficient, and interpretable reasoning with LLMs." not in preview, "Old research interests heading should be removed from preview."
     assert "Reasoning-centric research across LLMs, verification, and agentic systems." in preview, "Updated research interests heading is missing from preview."
     assert "Agentic Reasoning" in preview, "Agentic reasoning should appear in preview."
@@ -68,10 +74,18 @@ scss = homepage_scss.read_text(encoding="utf-8")
 assert ".homepage" in scss, "Homepage styles are missing."
 assert ".home-hero" in scss, "Hero styles are missing."
 assert ".paper-grid" in scss, "Paper grid styles are missing."
-assert "max-width: 260px;" in scss, "Avatar column should be reduced in width."
+assert "max-width: 236px;" in scss, "Avatar column should be slightly enlarged from the ultra-compact version."
+assert "align-items: start;" in scss, "Paper grid should avoid stretched equal-height cards."
+assert ".portrait-card__label {" in scss, "Portrait label override should be present."
+assert "font-size: 0.72rem;" in scss, "Research Themes label should be smaller."
+assert ".portrait-card .topic-list {" in scss, "Portrait theme list override should be present."
+assert "gap: 0.36rem 0.42rem;" in scss, "Portrait theme list should use tighter spacing."
+assert ".portrait-card .topic-pill {" in scss, "Portrait theme pill override should be present."
+assert "min-height: 30px;" in scss, "Portrait theme pills should use smaller vertical height."
+assert "padding: 0.24rem 0.62rem;" in scss, "Portrait theme pills should use smaller vertical padding."
 assert "repeat(3, minmax(0, 1fr))" in scss, "Selected papers should use a denser desktop grid."
-assert "padding: 1rem 1.05rem 1.05rem;" in scss, "Paper cards should use tighter padding."
-assert "font-size: 1.18rem;" in scss, "Paper titles should be reduced for a denser layout."
+assert "padding: 0.82rem 0.9rem 0.88rem;" in scss, "Paper cards should use tighter padding."
+assert "font-size: 1.05rem;" in scss, "Paper titles should be reduced further for a denser layout."
 
 for title in (
     "Proving Theorems Recursively",
