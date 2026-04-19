@@ -79,13 +79,9 @@
   padding: 2.25rem 0 1rem;
 
   @include breakpoint($medium) {
-    grid-template-columns: 212px minmax(0, 1.18fr);
-    gap: 1.2rem;
+    grid-template-columns: 212px minmax(0, 1.34fr);
+    gap: 1.35rem;
     padding-top: 3rem;
-  }
-
-  @include breakpoint($large) {
-    grid-template-columns: 212px minmax(0, 1.18fr) minmax(250px, 0.92fr);
   }
 }
 
@@ -197,22 +193,6 @@
   }
 }
 
-.home-hero__news {
-  min-width: 0;
-
-  @include breakpoint($medium) {
-    order: 3;
-    grid-column: 1 / -1;
-  }
-
-  @include breakpoint($large) {
-    grid-column: auto;
-    max-width: 320px;
-    width: 100%;
-    justify-self: end;
-  }
-}
-
 .portrait-card,
 .home-panel,
 .paper-card,
@@ -278,18 +258,6 @@
   margin: 0;
   font-size: 1.05rem;
   font-weight: 700;
-}
-
-.home-panel__title {
-  margin: 0;
-  font-size: 1.28rem;
-  line-height: 1.15;
-  text-wrap: balance;
-}
-
-.home-hero__news-heading {
-  display: grid;
-  gap: 0.32rem;
 }
 
 .compact-list,
@@ -409,6 +377,20 @@
   }
 }
 
+.home-section--top-grid {
+  display: grid;
+  gap: 2rem;
+
+  @include breakpoint($medium) {
+    grid-template-columns: minmax(0, 1.16fr) minmax(280px, 0.9fr);
+    align-items: start;
+  }
+}
+
+.home-column {
+  min-width: 0;
+}
+
 .timeline {
   display: grid;
   gap: 1rem;
@@ -462,6 +444,23 @@
 
   @include breakpoint($medium) {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+.credential-grid--compact {
+  gap: 0.9rem;
+
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.credential-grid--compact .credential-card {
+  padding: 1.12rem;
+
+  h3 {
+    margin-bottom: 0.8rem;
+    font-size: 1.08rem;
   }
 }
 

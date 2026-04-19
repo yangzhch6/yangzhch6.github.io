@@ -38,8 +38,10 @@ assert "Reliable, data-efficient, and interpretable reasoning with LLMs." not in
 assert "Research Interests" not in about, "Research interests section should be removed from homepage source."
 assert "agentic reasoning" in about_compact, "Agentic reasoning should appear in homepage source."
 assert 'class="paper-card__venue"' in about, "Homepage papers should keep venue lines on the shared paper-card__venue style hook."
-assert 'class="home-hero__news home-panel"' in about, "News should move into the hero rail in homepage source."
-assert 'class="timeline timeline--compact"' in about, "Homepage source should use the compact news timeline."
+assert 'class="home-hero__news home-panel"' not in about, "News should no longer sit inside the hero in homepage source."
+assert 'class="home-section home-section--top-grid"' in about, "Homepage source should use a dedicated second-row top grid."
+assert 'class="timeline timeline--compact"' in about, "Homepage source should keep the compact news timeline."
+assert 'class="credential-grid credential-grid--compact"' in about, "Homepage source should use a compact academic background grid."
 
 selected_idx = about.index('id="home-selected-papers"')
 background_idx = about.index("Academic Background")
@@ -47,9 +49,10 @@ preprints_idx = about.index('id="home-preprints"')
 news_idx = about.index('id="home-news"')
 hero_end_idx = about.index("</section>", about.index('<section class="home-hero">'))
 assert news_idx < preprints_idx, "News should appear before preprints in homepage source."
-assert news_idx < hero_end_idx, "News should sit inside the homepage hero in homepage source."
-assert background_idx > preprints_idx, "Academic background should appear after preprints in homepage source."
-assert background_idx > selected_idx, "Academic background should appear after selected papers in homepage source."
+assert news_idx > hero_end_idx, "News should move out of the homepage hero in homepage source."
+assert background_idx > hero_end_idx, "Academic background should appear below the hero in homepage source."
+assert background_idx < preprints_idx, "Academic background should move above preprints in homepage source."
+assert selected_idx > background_idx, "Selected papers should stay below the second-row top grid in homepage source."
 
 if preview is not None:
     assert "Based In" not in preview, "Based In panel should be removed from preview."
@@ -65,8 +68,10 @@ if preview is not None:
     assert "Reliable, data-efficient, and interpretable reasoning with LLMs." not in preview, "Old research interests heading should be removed from preview."
     assert "Research Interests" not in preview, "Research interests section should be removed from preview."
     assert "agentic reasoning" in preview_compact, "Agentic reasoning should appear in preview."
-    assert 'class="home-hero__news home-panel"' in preview, "News should move into the hero rail in preview."
+    assert 'class="home-hero__news home-panel"' not in preview, "News should no longer sit inside the hero in preview."
+    assert 'class="home-section home-section--top-grid"' in preview, "Preview should use a dedicated second-row top grid."
     assert 'class="timeline timeline--compact"' in preview, "Preview should use the compact news timeline."
+    assert 'class="credential-grid credential-grid--compact"' in preview, "Preview should use a compact academic background grid."
 
     preview_selected_idx = preview.index('id="home-selected-papers"')
     preview_background_idx = preview.index("Academic Background")
@@ -74,9 +79,10 @@ if preview is not None:
     preview_news_idx = preview.index('id="home-news"')
     preview_hero_end_idx = preview.index("</section>", preview.index('<section class="home-hero">'))
     assert preview_news_idx < preview_preprints_idx, "News should appear before preprints in preview."
-    assert preview_news_idx < preview_hero_end_idx, "News should sit inside the homepage hero in preview."
-    assert preview_background_idx > preview_preprints_idx, "Academic background should appear after preprints in preview."
-    assert preview_background_idx > preview_selected_idx, "Academic background should appear after selected papers in preview."
+    assert preview_news_idx > preview_hero_end_idx, "News should move out of the homepage hero in preview."
+    assert preview_background_idx > preview_hero_end_idx, "Academic background should appear below the hero in preview."
+    assert preview_background_idx < preview_preprints_idx, "Academic background should move above preprints in preview."
+    assert preview_selected_idx > preview_background_idx, "Selected papers should stay below the second-row top grid in preview."
 
 homepage_scss = ROOT / "_sass" / "_homepage.scss"
 assert homepage_scss.exists(), "Homepage SCSS partial is missing."
@@ -91,18 +97,17 @@ assert "margin: 1.05rem 0 0;" in scss, "Hero subtitle should sit lower below the
 assert "align-items: start;" in scss, "Paper grid should avoid stretched equal-height cards."
 assert "font-style: italic;" in scss, "Paper venues should render in italics."
 assert "gap: 0.12rem;" in scss, "Paper metadata stack should remove excess internal spacing."
-assert "grid-template-columns: 212px minmax(0, 1.18fr);" in scss, "Hero medium layout should keep the portrait tight to the bio column."
-assert "grid-template-columns: 212px minmax(0, 1.18fr) minmax(250px, 0.92fr);" in scss, "Hero large layout should reserve a right rail for compact news."
-assert "gap: 1.2rem;" in scss, "Hero layout gap should be tightened further."
+assert "grid-template-columns: 212px minmax(0, 1.34fr);" in scss, "Hero should return to a simpler two-column portrait and bio layout."
+assert "gap: 1.35rem;" in scss, "Hero layout gap should reopen slightly for the two-column design."
 assert "max-width: 212px;" in scss, "Portrait column should be narrower."
 assert "justify-self: start;" in scss, "Portrait card should sit closer to the bio column."
 assert ".home-hero__intro {" in scss, "Hero intro block should have an explicit desktop order override."
 assert "order: 2;" in scss, "Hero intro block should move to the right column on desktop."
 assert ".home-hero__aside {" in scss, "Hero portrait block should have an explicit desktop order override."
 assert "order: 1;" in scss, "Hero portrait block should move to the left column on desktop."
-assert ".home-hero__news {" in scss, "Hero news rail should have dedicated styles."
-assert "order: 3;" in scss, "Hero news rail should move to the rightmost desktop column."
-assert "max-width: 320px;" in scss, "Hero news rail should stay visually compact."
+assert ".home-hero__news {" not in scss, "Hero news rail styles should be removed."
+assert ".home-section--top-grid {" in scss, "Second-row top grid styles should be present."
+assert "grid-template-columns: minmax(0, 1.16fr) minmax(280px, 0.9fr);" in scss, "Second row should place background beside news on desktop."
 assert ".portrait-card__label {" in scss, "Portrait label override should be present."
 assert "font-size: 0.72rem;" in scss, "Research Themes label should be smaller."
 assert "margin: 0 0 0.3rem;" in scss, "Research Themes label should sit closer to the topic pills."
@@ -121,7 +126,8 @@ assert ".timeline--compact {" in scss, "Compact timeline hook should be present.
 assert "gap: 0.78rem;" in scss, "Compact news timeline should tighten vertical rhythm."
 assert ".timeline--compact .timeline-item {" in scss, "Compact news items should have their own override."
 assert "padding: 0.8rem 0.9rem;" in scss, "Compact news items should use smaller padding."
-assert ".home-section--split" not in scss, "Old split-section homepage layout styles should be removed."
+assert ".credential-grid--compact {" in scss, "Compact academic background grid styles should be present."
+assert "padding: 1.12rem;" in scss, "Compact academic background cards should use reduced padding."
 
 for title in (
     "Proving Theorems Recursively",

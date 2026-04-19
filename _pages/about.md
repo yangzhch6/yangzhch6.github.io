@@ -54,10 +54,55 @@ redirect_from:
       </div>
 
     </div>
-    <div id="home-news" class="home-hero__news home-panel">
-      <div class="home-hero__news-heading">
-        <p class="home-panel__label">News</p>
-        <h2 class="home-panel__title">Recent updates.</h2>
+  </section>
+
+  <section class="home-section home-section--top-grid">
+    <div class="home-column">
+      <div class="section-heading">
+        <p class="section-kicker">Academic Background</p>
+        <h2>Training, experience, and academic distinctions.</h2>
+      </div>
+
+      <div class="credential-grid credential-grid--compact">
+        <article class="credential-card">
+          <h3>Experience</h3>
+          <ul class="detail-list">
+            <li>LLM Research Intern, ByteDance Seed</li>
+            <li>LLM Research Intern, Huawei Noah's Ark Lab</li>
+            <li>Recommender System Intern, ByteDance Douyin</li>
+          </ul>
+        </article>
+
+        <article class="credential-card">
+          <h3>Education</h3>
+          <ul class="detail-list">
+            <li>2020 - 2023: Master in Pattern Recognition and Intelligent Systems, Sun Yat-sen University</li>
+            <li>2016 - 2020: B.Sc. in Computer Science and Technology, Sun Yat-sen University</li>
+          </ul>
+        </article>
+
+        <article class="credential-card">
+          <h3>Honors &amp; Awards</h3>
+          <ul class="detail-list">
+            <li>National First Prize, Contemporary Undergraduate Mathematical Contest in Modeling</li>
+            <li>First Prize Scholarship, Sun Yat-sen University</li>
+          </ul>
+        </article>
+
+        <article class="credential-card">
+          <h3>Professional Service</h3>
+          <ul class="detail-list">
+            <li>Area Chair, ACL Rolling Review (ARR), January 2026</li>
+            <li>Reviewer for ICML, NeurIPS, ICLR, ACL, EMNLP, NAACL, and TNNLS</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+
+    <div id="home-news" class="home-column">
+      <div class="section-heading">
+        <p class="section-kicker">News</p>
+        <h2>Recent updates.</h2>
       </div>
       <div class="timeline timeline--compact">
         <div class="timeline-item">
@@ -293,48 +338,6 @@ redirect_from:
             <a href="https://ieeexplore.ieee.org/document/10113691">Paper</a>
           </div>
         </div>
-      </article>
-    </div>
-  </section>
-
-  <section class="home-section">
-    <div class="section-heading">
-      <p class="section-kicker">Academic Background</p>
-      <h2>Training, experience, and academic distinctions.</h2>
-    </div>
-
-    <div class="credential-grid">
-      <article class="credential-card">
-        <h3>Experience</h3>
-        <ul class="detail-list">
-          <li>LLM Research Intern, ByteDance Seed</li>
-          <li>LLM Research Intern, Huawei Noah's Ark Lab</li>
-          <li>Recommender System Intern, ByteDance Douyin</li>
-        </ul>
-      </article>
-
-      <article class="credential-card">
-        <h3>Education</h3>
-        <ul class="detail-list">
-          <li>2020 - 2023: Master in Pattern Recognition and Intelligent Systems, Sun Yat-sen University</li>
-          <li>2016 - 2020: B.Sc. in Computer Science and Technology, Sun Yat-sen University</li>
-        </ul>
-      </article>
-
-      <article class="credential-card">
-        <h3>Honors &amp; Awards</h3>
-        <ul class="detail-list">
-          <li>National First Prize, Contemporary Undergraduate Mathematical Contest in Modeling</li>
-          <li>First Prize Scholarship, Sun Yat-sen University</li>
-        </ul>
-      </article>
-
-      <article class="credential-card">
-        <h3>Professional Service</h3>
-        <ul class="detail-list">
-          <li>Area Chair, ACL Rolling Review (ARR), January 2026</li>
-          <li>Reviewer for ICML, NeurIPS, ICLR, ACL, EMNLP, NAACL, and TNNLS</li>
-        </ul>
       </article>
     </div>
   </section>
