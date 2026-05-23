@@ -1,0 +1,25 @@
+# main links links
+main:
+  - title: "About Me"
+    url: "/#about-me"
+
+  - title: "News"
+    url: "/#news"
+
+  - title: "Selected Publications"
+    url: "/#publications"
+
+  - title: "Seleted Preprints"
+    url: "/#preprints"
+
+  - title: "Honors and Awards"
+    url: "/#honors-and-awards"
+
+  - title: "Educations"
+    url: "/#educations"
+
+  - title: "Professional Service"
+    url: "/#service"
+
+  - title: "Internships"
+    url: "/#internships"

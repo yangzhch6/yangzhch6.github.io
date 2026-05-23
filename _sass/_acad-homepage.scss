@@ -1,0 +1,88 @@
+/* ==========================================================================
+   ACAD-HOMEPAGE TEMPLATE
+   ========================================================================== */
+
+.acad-homepage {
+  .page__content {
+    h1 {
+      margin-top: 1em;
+      padding-bottom: 0.5em;
+      border-bottom: 1px solid $border-color;
+      font-size: $type-size-3;
+    }
+
+    h2 {
+      margin-top: 1.2em;
+      padding-bottom: 0;
+      border-bottom: 0;
+      font-size: $type-size-4;
+    }
+  }
+}
+
+.acad-homepage .paper-box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-bottom: 1px #efefef solid;
+  padding: 2em 0;
+
+  .paper-box-image {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    order: 2;
+
+    img {
+      max-width: 400px;
+      box-shadow: 3px 3px 6px #888;
+      object-fit: contain;
+    }
+  }
+
+  .paper-box-text {
+    max-width: 100%;
+    order: 1;
+  }
+
+  @include breakpoint($medium) {
+    .paper-box-image {
+      justify-content: left;
+      min-width: 200px;
+      max-width: 40%;
+      order: 1;
+    }
+
+    .paper-box-text {
+      justify-content: left;
+      padding-left: 2em;
+      max-width: 60%;
+      order: 2;
+    }
+  }
+}
+
+$acad-scroll-offset: 2em;
+
+.acad-homepage .page__content h1:before,
+.acad-homepage .anchor:before {
+  content: "";
+  display: block;
+  position: relative;
+  width: 0;
+  height: $acad-scroll-offset;
+  margin-top: -$acad-scroll-offset;
+}
+
+.acad-homepage .badge {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: absolute;
+  margin-top: 0.5em;
+  margin-left: -0.5em;
+  color: white;
+  background-color: #00369f;
+  font-size: 0.8em;
+}
